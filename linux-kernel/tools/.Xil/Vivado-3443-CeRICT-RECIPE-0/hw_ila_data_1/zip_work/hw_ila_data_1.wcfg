@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1024001fs"></ZoomEndTime>
+      <Cursor1Time time="95000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="73"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject type="vbus" fp_name="vbus35">
+      <obj_property name="label">reg0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_1">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_1</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_1</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_2">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_2</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_2</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_3">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_3</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_3</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_4">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_4</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_4</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_5">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_5</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_5</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_6">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_6</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_6</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_7">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_7</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_7</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_8">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_8</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_8</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_9">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_9</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_9</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_10">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_10</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_10</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_11">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_11</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_11</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_12">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_12</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_12</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_13">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_13</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_13</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_14">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_14</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_14</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_15">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_15</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_15</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_16">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_16</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_16</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_17">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_17</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_17</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_18">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_18</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_18</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_19">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_19</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_19</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_20">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_20</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_20</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_21">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_21</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_21</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_22">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_22</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_22</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_23">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_23</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_23</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_24">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_24</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_24</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_25">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_25</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_25</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_26">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_26</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_26</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_27">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_27</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_27</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_28">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_28</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_28</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_29">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_29</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_29</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_30">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_30</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_30</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg0_31">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg0_31</obj_property>
+         <obj_property name="ObjectShortName">myip_0_slv_reg0_31</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group68">
+      <obj_property name="label">reg1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="vbus" fp_name="vbus69">
+         <obj_property name="label">reg1</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_1">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_1</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_1</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_2">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_2</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_2</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_3">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_3</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_3</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_4">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_4</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_4</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_5">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_5</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_5</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_6">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_6</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_6</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_7">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_7</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_7</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_8">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_8</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_8</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_9">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_9</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_9</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_10">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_10</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_10</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_11">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_11</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_11</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_12">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_12</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_12</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_13">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_13</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_13</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_14">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_14</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_14</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_15">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_15</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_15</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_16">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_16</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_16</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_17">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_17</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_17</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_18">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_18</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_18</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_19">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_19</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_19</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_20">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_20</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_20</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_21">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_21</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_21</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_22">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_22</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_22</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_23">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_23</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_23</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_24">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_24</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_24</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_25">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_25</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_25</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_26">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_26</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_26</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_27">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_27</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_27</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_28">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_28</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_28</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_29">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_29</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_29</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_30">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_30</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_30</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="pcie/design_1_i/myip_0_slv_reg1_31">
+            <obj_property name="DisplayName">FullPathName</obj_property>
+            <obj_property name="ElementShortName">pcie/design_1_i/myip_0_slv_reg1_31</obj_property>
+            <obj_property name="ObjectShortName">myip_0_slv_reg1_31</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

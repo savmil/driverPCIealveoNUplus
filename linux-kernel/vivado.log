@@ -1,0 +1,374 @@
+#-----------------------------------------------------------
+# Vivado v2019.1.3 (64-bit)
+# SW Build 2644227 on Wed Sep  4 09:44:18 MDT 2019
+# IP Build 2633630 on Wed Sep  4 12:30:14 MDT 2019
+# Start of session at: Thu Nov 28 16:51:46 2019
+# Process ID: 2639
+# Current directory: /home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel
+# Command line: vivado
+# Log file: /home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/vivado.log
+# Journal file: /home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/smilo/Desktop/naplesPUalveo/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/axitorouter_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/slaveaxi_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:14 . Memory (MB): peak = 6817.340 ; gain = 302.898 ; free physical = 60498 ; free virtual = 122558
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1.3
+  **** Build date : Sep  4 2019 at 10:02:20
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/21770297J00CA
+set_property PROGRAM.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.bit} [get_hw_devices xcu280_0]
+set_property PROBES.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.ltx} [get_hw_devices xcu280_0]
+set_property FULL_PROBES.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.ltx} [get_hw_devices xcu280_0]
+current_hw_device [get_hw_devices xcu280_0]
+refresh_hw_device [lindex [get_hw_devices xcu280_0] 0]
+INFO: [Labtools 27-2302] Device xcu280 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Nov-28 16:53:25
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Nov-28 16:53:25
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Nov-28 16:53:40
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Nov-28 16:53:40
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Nov-28 16:53:43
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Nov-28 16:53:43
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Nov-28 16:54:19
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Nov-28 16:54:19
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Nov-28 16:55:01
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Nov-28 16:55:01
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+open_bd_design {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}
+Adding component instance block -- xilinx.com:ip:xdma:4.1 - xdma_0
+Adding component instance block -- xilinx.com:ip:util_ds_buf:2.1 - util_ds_buf
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_interconnect_0
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:ila:6.2 - ila_0
+INFO: [xilinx.com:ip:ila:6.2-6] /ila_0: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
+Adding component instance block -- user.org:user:myip:1.0 - myip_0
+Successfully read diagram <design_1> from BD file </home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 8145.617 ; gain = 0.000 ; free physical = 59106 ; free virtual = 121275
+ipx::edit_ip_in_project -upgrade true -name myip_v1_0_project -directory /home/smilo/Desktop/naplesPUalveo/project_1/project_1.tmp/myip_v1_0_project /home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'.
+create_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:06 . Memory (MB): peak = 8145.617 ; gain = 0.000 ; free physical = 59030 ; free virtual = 121201
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/axitorouter_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/slaveaxi_1.0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0/hdl/myip_v1_0_S00_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0/hdl/myip_v1_0.v:]
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:07 . Memory (MB): peak = 8145.617 ; gain = 0.000 ; free physical = 59017 ; free virtual = 121188
+update_compile_order -fileset sources_1
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Nov-28 16:57:06
+current_project project_1
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Nov-28 16:57:06
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+current_project myip_v1_0_project
+current_project project_1
+open_bd_design {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}
+current_project myip_v1_0_project
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [IP_Flow 19-5226] Project source file '/home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0/component.xml' ignored by IP packager.
+INFO: [IP_Flow 19-3166] Bus Interface 'S00_AXI': References existing memory map 'S00_AXI'.
+set_property core_revision 14 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path /home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0'
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {myip_0 design_1_myip_0_0}] -log ip_upgrade.log
+Upgrading '/home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-3422] Upgraded design_1_myip_0_0 (myip_v1.0 1.0) from revision 13 to revision 14
+WARNING: [IP_Flow 19-4706] Upgraded port 'slv_reg0' width 32 differs from original width 1
+WARNING: [IP_Flow 19-4706] Upgraded port 'slv_reg1' width 32 differs from original width 1
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'design_1_myip_0_0'. These changes may impact your design.
+CRITICAL WARNING: [Coretcl 2-1279] The upgrade of 'design_1_myip_0_0' has identified issues that may require user intervention. Please review the upgrade log '/home/smilo/Desktop/naplesPUalveo/project_1/ip_upgrade.log', and verify that the upgraded IP is correctly configured.
+Wrote  : </home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : </home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+Upgrading 'myip_0'
+INFO: [IP_Flow 19-3422] Upgraded myip_0 (myip_v1.0 1.0) from revision 13 to revision 14
+WARNING: [IP_Flow 19-4706] Upgraded port 'slv_reg0' width 32 differs from original width 1
+WARNING: [IP_Flow 19-4706] Upgraded port 'slv_reg1' width 32 differs from original width 1
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'myip_0'. These changes may impact your design.
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'myip_0'...
+CRITICAL WARNING: [Coretcl 2-1279] The upgrade of 'myip_0' has identified issues that may require user intervention. Please review the upgrade log '/home/smilo/Desktop/naplesPUalveo/project_1/ip_upgrade.log', and verify that the upgraded IP is correctly configured.
+INFO: [Coretcl 2-1525] Wrote upgrade log to '/home/smilo/Desktop/naplesPUalveo/project_1/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips {myip_0 design_1_myip_0_0}] -no_script -sync -force -quiet
+delete_bd_objs [get_bd_ports slv_reg0_0]
+delete_bd_objs [get_bd_ports slv_reg1_0]
+delete_bd_objs [get_bd_nets myip_0_slv_reg0]
+delete_bd_objs [get_bd_nets myip_0_slv_reg1]
+startgroup
+make_bd_pins_external  [get_bd_pins myip_0/slv_reg1]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins myip_0/slv_reg0]
+endgroup
+connect_bd_net [get_bd_pins ila_0/probe0] [get_bd_pins myip_0/slv_reg0]
+connect_bd_net [get_bd_pins ila_0/probe1] [get_bd_pins myip_0/slv_reg1]
+generate_target all [get_files  /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd]
+WARNING: [BD 41-1781] Updates have been made to one or more nets/interface connections marked for debug.
+Debug nets, which are already connected to System ILA IP core in the block-design, will be automatically available for debug in Hardware Manager.
+For unconnected Debug nets, please open synthesized design and use 'Set Up Debug' wizard to insert, modify or delete Debug Cores. Failure to do so could result in critical warnings and errors in the implementation flow.
+Wrote  : </home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : </home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+VHDL Output written to : /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/synth/design_1.v
+VHDL Output written to : /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/sim/design_1.v
+VHDL Output written to : /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xdma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_ds_buf .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block myip_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_ds .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_pc .
+Exporting to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+catch { config_ip_cache -export [get_ips -all design_1_myip_0_0] }
+catch { config_ip_cache -export [get_ips -all design_1_auto_ds_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_ds_0, cache-ID = 55a633c883827154; cache size = 493.876 MB.
+catch { config_ip_cache -export [get_ips -all design_1_auto_pc_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = db3354bff97adbb3; cache size = 493.876 MB.
+export_ip_user_files -of_objects [get_files /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd]
+launch_runs -jobs 16 design_1_myip_0_0_synth_1
+[Thu Nov 28 17:03:22 2019] Launched design_1_myip_0_0_synth_1...
+Run output will be captured here: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/design_1_myip_0_0_synth_1/runme.log
+export_simulation -of_objects [get_files /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd] -directory /home/smilo/Desktop/naplesPUalveo/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir /home/smilo/Desktop/naplesPUalveo/project_1/project_1.ip_user_files -ipstatic_source_dir /home/smilo/Desktop/naplesPUalveo/project_1/project_1.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/smilo/Desktop/naplesPUalveo/project_1/project_1.cache/compile_simlib/modelsim} {questa=/home/smilo/Desktop/naplesPUalveo/project_1/project_1.cache/compile_simlib/questa} {ies=/home/smilo/Desktop/naplesPUalveo/project_1/project_1.cache/compile_simlib/ies} {xcelium=/home/smilo/Desktop/naplesPUalveo/project_1/project_1.cache/compile_simlib/xcelium} {vcs=/home/smilo/Desktop/naplesPUalveo/project_1/project_1.cache/compile_simlib/vcs} {riviera=/home/smilo/Desktop/naplesPUalveo/project_1/project_1.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+reset_run design_1_myip_0_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Thu Nov 28 17:06:40 2019] Launched design_1_myip_0_0_synth_1, synth_1...
+Run output will be captured here:
+design_1_myip_0_0_synth_1: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/design_1_myip_0_0_synth_1/runme.log
+synth_1: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/synth_1/runme.log
+[Thu Nov 28 17:06:41 2019] Launched impl_1...
+Run output will be captured here: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/runme.log
+open_bd_design {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}
+reset_run synth_1
+reset_run design_1_myip_0_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Thu Nov 28 17:27:19 2019] Launched design_1_myip_0_0_synth_1, synth_1...
+Run output will be captured here:
+design_1_myip_0_0_synth_1: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/design_1_myip_0_0_synth_1/runme.log
+synth_1: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/synth_1/runme.log
+[Thu Nov 28 17:27:19 2019] Launched impl_1...
+Run output will be captured here: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/runme.log
+open_bd_design {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}
+report_ip_status -name ip_status 
+ipx::edit_ip_in_project -upgrade true -name myip_v1_0_project -directory /home/smilo/Desktop/naplesPUalveo/project_1/project_1.tmp/myip_v1_0_project /home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/axitorouter_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/slaveaxi_1.0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0/hdl/myip_v1_0_S00_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0/hdl/myip_v1_0.v:]
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 8558.535 ; gain = 0.000 ; free physical = 58293 ; free virtual = 120861
+update_compile_order -fileset sources_1
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [IP_Flow 19-5226] Project source file '/home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0/component.xml' ignored by IP packager.
+INFO: [IP_Flow 19-3166] Bus Interface 'S00_AXI': References existing memory map 'S00_AXI'.
+set_property core_revision 15 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path /home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0'
+set_property location {4 1180 370} [get_bd_cells myip_0]
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {myip_0 design_1_myip_0_0}] -log ip_upgrade.log
+Upgrading '/home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-3422] Upgraded design_1_myip_0_0 (myip_v1.0 1.0) from revision 14 to revision 15
+WARNING: [IP_Flow 19-4700] Upgrade has removed port 'slv_reg0'
+WARNING: [IP_Flow 19-4700] Upgrade has removed port 'slv_reg1'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'slv0'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'slv1'
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'design_1_myip_0_0'. These changes may impact your design.
+CRITICAL WARNING: [BD 41-1167] The pin 'slv_reg0' is not found on the upgraded version of the cell '/myip_0'. Its connection to the net 'myip_0_slv_reg0' has been removed.
+CRITICAL WARNING: [BD 41-1167] The pin 'slv_reg1' is not found on the upgraded version of the cell '/myip_0'. Its connection to the net 'myip_0_slv_reg1' has been removed.
+CRITICAL WARNING: [Coretcl 2-1279] The upgrade of 'design_1_myip_0_0' has identified issues that may require user intervention. Please review the upgrade log '/home/smilo/Desktop/naplesPUalveo/project_1/ip_upgrade.log', and verify that the upgraded IP is correctly configured.
+WARNING: [BD 41-597] NET <myip_0_slv_reg1> has no source
+WARNING: [BD 41-597] NET <myip_0_slv_reg0> has no source
+Wrote  : </home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : </home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+Upgrading 'myip_0'
+INFO: [IP_Flow 19-3422] Upgraded myip_0 (myip_v1.0 1.0) from revision 14 to revision 15
+WARNING: [IP_Flow 19-4700] Upgrade has removed port 'slv_reg0'
+WARNING: [IP_Flow 19-4700] Upgrade has removed port 'slv_reg1'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'slv0'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'slv1'
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'myip_0'. These changes may impact your design.
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'myip_0'...
+CRITICAL WARNING: [Coretcl 2-1279] The upgrade of 'myip_0' has identified issues that may require user intervention. Please review the upgrade log '/home/smilo/Desktop/naplesPUalveo/project_1/ip_upgrade.log', and verify that the upgraded IP is correctly configured.
+INFO: [Coretcl 2-1525] Wrote upgrade log to '/home/smilo/Desktop/naplesPUalveo/project_1/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips {myip_0 design_1_myip_0_0}] -no_script -sync -force -quiet
+connect_bd_net [get_bd_ports slv_reg0_0] [get_bd_pins myip_0/slv0]
+connect_bd_net [get_bd_ports slv_reg1_0] [get_bd_pins myip_0/slv1]
+save_bd_design
+Wrote  : </home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd> 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+WARNING: [BD 41-1781] Updates have been made to one or more nets/interface connections marked for debug.
+Debug nets, which are already connected to System ILA IP core in the block-design, will be automatically available for debug in Hardware Manager.
+For unconnected Debug nets, please open synthesized design and use 'Set Up Debug' wizard to insert, modify or delete Debug Cores. Failure to do so could result in critical warnings and errors in the implementation flow.
+Wrote  : </home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd> 
+VHDL Output written to : /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/synth/design_1.v
+VHDL Output written to : /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/sim/design_1.v
+VHDL Output written to : /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xdma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_ds_buf .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block myip_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_ds .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_pc .
+Exporting to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_ds_0, cache-ID = 55a633c883827154; cache size = 493.876 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = db3354bff97adbb3; cache size = 493.876 MB.
+[Thu Nov 28 17:33:31 2019] Launched design_1_myip_0_0_synth_1, synth_1...
+Run output will be captured here:
+design_1_myip_0_0_synth_1: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/design_1_myip_0_0_synth_1/runme.log
+synth_1: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/synth_1/runme.log
+[Thu Nov 28 17:33:32 2019] Launched impl_1...
+Run output will be captured here: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 8667.070 ; gain = 15.867 ; free physical = 58258 ; free virtual = 120828
+report_ip_status -name ip_status 
+ipx::edit_ip_in_project -upgrade true -name myip_v1_0_project -directory /home/smilo/Desktop/naplesPUalveo/project_1/project_1.tmp/myip_v1_0_project /home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'.
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 8667.070 ; gain = 0.000 ; free physical = 58199 ; free virtual = 120769
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/axitorouter_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/slaveaxi_1.0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0/hdl/myip_v1_0_S00_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0/hdl/myip_v1_0.v:]
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 8667.070 ; gain = 0.000 ; free physical = 58193 ; free virtual = 120763
+update_compile_order -fileset sources_1
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [IP_Flow 19-5226] Project source file '/home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0/component.xml' ignored by IP packager.
+INFO: [IP_Flow 19-3166] Bus Interface 'S00_AXI': References existing memory map 'S00_AXI'.
+set_property core_revision 16 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path /home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0'
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {myip_0 design_1_myip_0_0}] -log ip_upgrade.log
+Upgrading '/home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-3422] Upgraded design_1_myip_0_0 (myip_v1.0 1.0) from revision 15 to revision 16
+Wrote  : </home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd> 
+Upgrading 'myip_0'
+INFO: [IP_Flow 19-3422] Upgraded myip_0 (myip_v1.0 1.0) from revision 15 to revision 16
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'myip_0'...
+INFO: [Coretcl 2-1525] Wrote upgrade log to '/home/smilo/Desktop/naplesPUalveo/project_1/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips {myip_0 design_1_myip_0_0}] -no_script -sync -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+WARNING: [BD 41-1781] Updates have been made to one or more nets/interface connections marked for debug.
+Debug nets, which are already connected to System ILA IP core in the block-design, will be automatically available for debug in Hardware Manager.
+For unconnected Debug nets, please open synthesized design and use 'Set Up Debug' wizard to insert, modify or delete Debug Cores. Failure to do so could result in critical warnings and errors in the implementation flow.
+Wrote  : </home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd> 
+VHDL Output written to : /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/synth/design_1.v
+VHDL Output written to : /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/sim/design_1.v
+VHDL Output written to : /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xdma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_ds_buf .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block myip_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_ds .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_pc .
+Exporting to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_ds_0, cache-ID = 55a633c883827154; cache size = 493.876 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = db3354bff97adbb3; cache size = 493.876 MB.
+[Thu Nov 28 17:36:47 2019] Launched design_1_myip_0_0_synth_1, synth_1...
+Run output will be captured here:
+design_1_myip_0_0_synth_1: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/design_1_myip_0_0_synth_1/runme.log
+synth_1: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/synth_1/runme.log
+[Thu Nov 28 17:36:47 2019] Launched impl_1...
+Run output will be captured here: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 8806.625 ; gain = 8.926 ; free physical = 58164 ; free virtual = 120734
+report_ip_status -name ip_status 
+set_property PROBES.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.ltx} [get_hw_devices xcu280_0]
+set_property FULL_PROBES.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.ltx} [get_hw_devices xcu280_0]
+set_property PROGRAM.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.bit} [get_hw_devices xcu280_0]
+program_hw_devices [get_hw_devices xcu280_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:52 ; elapsed = 00:00:49 . Memory (MB): peak = 8816.629 ; gain = 0.000 ; free physical = 57605 ; free virtual = 120705
+refresh_hw_device [lindex [get_hw_devices xcu280_0] 0]
+INFO: [Labtools 27-2302] Device xcu280 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {pcie/design_1_i/myip_0_slv_reg0} {pcie/design_1_i/myip_0_slv_reg1} }
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Nov-28 19:37:19
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Nov-28 19:37:19
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.

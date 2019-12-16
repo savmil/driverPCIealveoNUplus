@@ -1,0 +1,74 @@
+$date
+        2019-Dec-11 20:10:41
+$end
+$version
+        Vivado v2019.1.3 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 32 " pcie/design_1_i/myip_0_slv_reg0 [31:0] $end
+$var reg 32 B pcie/design_1_i/myip_0_slv_reg1 [31:0] $end
+$var reg 32 b pcie/design_1_i/to_slv_reg2_0_1 [31:0] $end
+$var reg 32 $" pcie/design_1_i/to_slv_reg3_0_1 [31:0] $end
+$var reg 32 D" pcie/design_1_i/probe4_0_1 [31:0] $end
+$var reg 1 d" _TRIGGER $end
+$var reg 1 e" _WINDOW $end
+$var reg 1 f" _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10100 "
+b1 B
+b10001101000 b
+b100000110 $"
+b10000000000000001 D"
+0d"
+1e"
+0f"
+$end
+#1
+b0 D"
+1d"
+#2
+b0 b
+b100010000 $"
+b10000000000000001 D"
+#26
+b10000 $"
+#47
+b100010000 $"
+#138
+b10000 $"
+#159
+b100010000 $"
+#250
+b10000 $"
+#271
+b100010000 $"
+#362
+b10000 $"
+#383
+b100010000 $"
+#474
+b10000 $"
+#495
+b100010000 $"
+#586
+b10000 $"
+#607
+b100010000 $"
+#698
+b10000 $"
+#719
+b100010000 $"
+#810
+b10000 $"
+#831
+b100010000 $"
+#922
+b10000 $"
+#943
+b100010000 $"

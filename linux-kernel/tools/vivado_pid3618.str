@@ -1,0 +1,506 @@
+/*
+
+Xilinx Vivado v2019.1.3 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2644227 on Wed Sep  4 09:44:18 MDT 2019
+IP Build: 2633630 on Wed Sep  4 12:30:14 MDT 2019
+
+Process ID (PID): 3618
+License: Customer
+
+Current time: 	Fri Nov 29 14:22:49 CET 2019
+Time zone: 	Central European Standard Time (Europe/Rome)
+
+OS: Ubuntu
+OS Version: 4.15.0-55-generic
+OS Architecture: amd64
+Available processors (cores): 32
+
+Display: :1.0
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Available disk space: 189 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/opt/Xilinx/Vivado/2019.1/tps/lnx64/jre9.0.4
+Java executable location: 	/opt/Xilinx/Vivado/2019.1/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	smilo
+User home directory: /home/smilo
+User working directory: /home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/tools
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /opt/Xilinx/Vivado
+HDI_APPROOT: /opt/Xilinx/Vivado/2019.1
+RDI_DATADIR: /opt/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: /opt/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: /home/smilo/.Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: /home/smilo/.Xilinx/Vivado/2019.1/
+Vivado layouts directory: /home/smilo/.Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	/opt/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	/home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/tools/vivado.log
+Vivado journal file location: 	/home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/tools/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-3618-CeRICT-RECIPE-0
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /opt/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: /opt/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: /opt/Xilinx/Vivado/2019.1
+XILINX_SDK: /opt/Xilinx/SDK/2019.1
+XILINX_VIVADO: /opt/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: /opt/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	190 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,027 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// HMemoryUtils.trashcanNow. Engine heap size: 990 MB. GUI used memory: 46 MB. Current time: 11/29/19, 2:22:51 PM CET
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/smilo/Desktop/naplesPUalveo/project_1/project_1.xpr", 0); // q (O, cl)
+// [GUI Memory]: 51 MB (+50639kb) [00:00:39]
+// [Engine Memory]: 1,000 MB (+897600kb) [00:00:39]
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.xpr. Version: Vivado v2019.1.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/smilo/Desktop/naplesPUalveo/project_1/project_1.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,137 MB. GUI used memory: 47 MB. Current time: 11/29/19, 2:23:26 PM CET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 115 MB (+65185kb) [00:00:51]
+// [Engine Memory]: 1,190 MB (+146057kb) [00:00:51]
+// [GUI Memory]: 124 MB (+2748kb) [00:00:52]
+// [GUI Memory]: 143 MB (+13932kb) [00:00:52]
+// [GUI Memory]: 157 MB (+7141kb) [00:00:52]
+// [Engine Memory]: 1,255 MB (+5488kb) [00:00:52]
+// WARNING: HEventQueue.dispatchEvent() is taking  4133 ms.
+// Tcl Message: open_project /home/smilo/Desktop/naplesPUalveo/project_1/project_1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/axitorouter_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/slaveaxi_1.0'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'. 
+// [Engine Memory]: 1,370 MB (+55186kb) [00:00:54]
+// WARNING: HEventQueue.dispatchEvent() is taking  1073 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:32 ; elapsed = 00:00:14 . Memory (MB): peak = 6865.250 ; gain = 335.500 ; free physical = 60437 ; free virtual = 122516 
+// Project name: project_1; location: /home/smilo/Desktop/naplesPUalveo/project_1; part: xcu280-fsvh2892-2L-e
+// Elapsed time: 17 seconds
+dismissDialog("Open Project"); // by (cl)
+// [Engine Memory]: 1,453 MB (+15000kb) [00:01:02]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// by (cl):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// [GUI Memory]: 165 MB (+235kb) [00:01:07]
+// Tcl Message: open_hw 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,547 MB. GUI used memory: 120 MB. Current time: 11/29/19, 2:23:47 PM CET
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// [Engine Memory]: 1,547 MB (+22311kb) [00:01:08]
+dismissDialog("Open Hardware Manager"); // by (cl)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cS, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 INFO: [Labtools 27-2222] Launching hw_server... 
+// by (cl):  Auto Connect : addNotify
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2019.1.3   **** Build date : Sep  4 2019 at 10:02:20     ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  2269 ms.
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/21770297J00CA 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.bit} [get_hw_devices xcu280_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.ltx} [get_hw_devices xcu280_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.ltx} [get_hw_devices xcu280_0] 
+// Tcl Message: current_hw_device [get_hw_devices xcu280_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// [Engine Memory]: 2,474 MB (+891656kb) [00:01:17]
+// WARNING: HEventQueue.dispatchEvent() is taking  1980 ms.
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xcu280_0] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xcu280 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s). 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// [GUI Memory]: 189 MB (+16387kb) [00:01:18]
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,555 MB. GUI used memory: 131 MB. Current time: 11/29/19, 2:23:59 PM CET
+dismissDialog("Auto Connect"); // by (cl)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// [Engine Memory]: 2,604 MB (+5840kb) [00:01:25]
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Nov-29 14:24:05 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,621 MB. GUI used memory: 132 MB. Current time: 11/29/19, 2:24:06 PM CET
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Nov-29 14:24:05 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, cl) - Node
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 1); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nexys4ddr_top (nexys4ddr_top.sv)]", 3, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nexys4ddr_top (nexys4ddr_top.sv)]", 3, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 2,652 MB. GUI used memory: 135 MB. Current time: 11/29/19, 2:24:21 PM CET
+// Elapsed time: 10 seconds
+selectCodeEditor("nexys4ddr_top.sv", 87, 370); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 866, 354); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 866, 354, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("nexys4ddr_top.sv", 150, 422); // cl (w, cl)
+// Elapsed time: 15 seconds
+selectCodeEditor("nexys4ddr_top.sv", 242, 347); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 242, 347, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 33 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "uart_router_command_valid"); // l (aT, cl)
+// Elapsed time: 37 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Waveform: addNotify
+// Waveform: addNotify
+// Waveform: addNotify
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Nov-29 14:26:16 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,672 MB. GUI used memory: 137 MB. Current time: 11/29/19, 2:26:17 PM CET
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Nov-29 14:26:16 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "nexys4ddr_top.sv", 1); // k (j, cl)
+selectCodeEditor("nexys4ddr_top.sv", 899, 80); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 909, 85); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 728, 80); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 553, 82); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 487, 79); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 286, 21); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 286, 21, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("nexys4ddr_top.sv", 458, 81); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 284, 47); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 284, 47, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 26 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "uart_router_command_valid"); // l (aT, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nexys4ddr_top (nexys4ddr_top.sv), u_uart_router : uart_router (uart_router.sv)]", 5, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nexys4ddr_top (nexys4ddr_top.sv), u_uart_router : uart_router (uart_router.sv)]", 5, false, false, false, false, false, true); // B (F, cl) - Double Click
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Waveform: addNotify
+// Waveform: addNotify
+// Waveform: addNotify
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hw_ila_1", 0); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "nexys4ddr_top.sv", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_router.sv", 2); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "nexys4ddr_top.sv", 1); // k (j, cl)
+selectCodeEditor("nexys4ddr_top.sv", 172, 84); // cl (w, cl)
+// Elapsed time: 43 seconds
+selectCodeEditor("nexys4ddr_top.sv", 228, 135); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_router.sv", 2); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "nexys4ddr_top.sv", 1); // k (j, cl)
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_router.sv", 2); // k (j, cl)
+selectCodeEditor("uart_router.sv", 262, 356); // cl (w, cl)
+selectCodeEditor("uart_router.sv", 262, 356, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 36 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "nexys4ddr_top.sv", 1); // k (j, cl)
+selectCodeEditor("nexys4ddr_top.sv", 129, 251); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 129, 251, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("nexys4ddr_top.sv", 250, 250); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 250, 250, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("nexys4ddr_top.sv", 592, 21); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_router.sv", 2); // k (j, cl)
+// Elapsed time: 29 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "nexys4ddr_top.sv", 1); // k (j, cl)
+// [GUI Memory]: 199 MB (+1kb) [00:08:50]
+selectCodeEditor("nexys4ddr_top.sv", 240, 386); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 240, 386, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nexys4ddr_top (nexys4ddr_top.sv), u_dummy_acc : dummy_acc (dummy_acc.sv)]", 6, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nexys4ddr_top (nexys4ddr_top.sv), u_dummy_acc : dummy_acc (dummy_acc.sv)]", 6, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectCodeEditor("dummy_acc.sv", 248, 280); // cl (w, cl)
+selectCodeEditor("dummy_acc.sv", 248, 280, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 22 seconds
+selectCodeEditor("dummy_acc.sv", 269, 158); // cl (w, cl)
+selectCodeEditor("dummy_acc.sv", 269, 158); // cl (w, cl)
+selectCodeEditor("dummy_acc.sv", 269, 158, false, false, false, false, true); // cl (w, cl) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "nexys4ddr_top.sv", 1); // k (j, cl)
+selectCodeEditor("nexys4ddr_top.sv", 264, 427); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 264, 427, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("nexys4ddr_top.sv", 263, 184); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 263, 184, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 21 seconds
+selectCodeEditor("nexys4ddr_top.sv", 295, 386); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 295, 386, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dummy_acc.sv", 3); // k (j, cl)
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_router.sv", 2); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "nexys4ddr_top.sv", 1); // k (j, cl)
+selectCodeEditor("nexys4ddr_top.sv", 237, 90); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 237, 90, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("nexys4ddr_top.sv", 233, 95); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 233, 95, false, false, false, false, true); // cl (w, cl) - Double Click
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "router_reset"); // l (aT, cl)
+selectCodeEditor("nexys4ddr_top.sv", 233, 95); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 233, 95, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "nexys4ddr_top.sv", 'c'); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 233, 130); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 233, 130, false, true, false, false, true); // cl (w, cl) - Control Key - Double Click
+typeControlKey((HResource) null, "nexys4ddr_top.sv", 'v'); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_router.sv", 2); // k (j, cl)
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dummy_acc.sv", 3); // k (j, cl)
+// Elapsed time: 31 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "nexys4ddr_top.sv", 1); // k (j, cl)
+selectCodeEditor("nexys4ddr_top.sv", 236, 159); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 236, 159, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_router.sv", 2); // k (j, cl)
+selectCodeEditor("uart_router.sv", 287, 300); // cl (w, cl)
+// Elapsed time: 27 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "port_1_valid_o"); // l (aT, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "nexys4ddr_top.sv", 1); // k (j, cl)
+selectCodeEditor("nexys4ddr_top.sv", 245, 431); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 245, 431, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "nexys4ddr_top.sv", 'c'); // cl (w, cl)
+// Elapsed time: 38 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_router.sv", 2); // k (j, cl)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "nexys4ddr_top.sv", 1); // k (j, cl)
+// Elapsed time: 12 seconds
+selectCodeEditor("nexys4ddr_top.sv", 272, 252); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 272, 252, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dummy_acc.sv", 3); // k (j, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,692 MB. GUI used memory: 142 MB. Current time: 11/29/19, 2:37:26 PM CET
+// Elapsed time: 43 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "command_ready_o"); // l (aT, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_router.sv", 2); // k (j, cl)
+// Elapsed time: 46 seconds
+selectCodeEditor("uart_router.sv", 210, 224); // cl (w, cl)
+selectCodeEditor("uart_router.sv", 425, 162, false, false, false, true, false); // cl (w, cl) - Popup Trigger
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dummy_acc.sv", 3); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "nexys4ddr_top.sv", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_router.sv", 2); // k (j, cl)
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "nexys4ddr_top.sv", 1); // k (j, cl)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "acc_router_command_consumed"); // l (aT, cl)
+selectCodeEditor("nexys4ddr_top.sv", 180, 221); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cl): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// by (cl):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (cl)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// [Engine Memory]: 2,794 MB (+62593kb) [00:16:54]
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cx' command handler elapsed time: 4 seconds
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// by (cl):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,718 MB. GUI used memory: 162 MB. Current time: 11/29/19, 2:39:36 PM CET
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Nov 29 14:39:36 2019] Launched synth_1... Run output will be captured here: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/synth_1/runme.log [Fri Nov 29 14:39:36 2019] Launched impl_1... Run output will be captured here: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ah (cl): Synthesis Failed: addNotify
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 154 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cl): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("No Implementation Results Available"); // A (cl)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+// Elapsed time: 73 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cx' command handler elapsed time: 75 seconds
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// by (cl):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// Tcl Message: [Fri Nov 29 14:43:30 2019] Launched synth_1... Run output will be captured here: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/synth_1/runme.log [Fri Nov 29 14:43:30 2019] Launched impl_1... Run output will be captured here: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 2,713 MB. GUI used memory: 142 MB. Current time: 11/29/19, 3:09:42 PM CET
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ah (cl): Bitstream Generation Completed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 2,643 MB. GUI used memory: 80 MB. Current time: 11/29/19, 3:39:42 PM CET

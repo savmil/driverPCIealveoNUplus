@@ -1,0 +1,2215 @@
+/*
+
+Xilinx Vivado v2019.1.3 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2644227 on Wed Sep  4 09:44:18 MDT 2019
+IP Build: 2633630 on Wed Sep  4 12:30:14 MDT 2019
+
+Process ID (PID): 3333
+License: Customer
+
+Current time: 	Wed Dec 11 18:42:00 CET 2019
+Time zone: 	Central European Standard Time (Europe/Rome)
+
+OS: Ubuntu
+OS Version: 4.15.0-55-generic
+OS Architecture: amd64
+Available processors (cores): 32
+
+Display: :1.0
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Available disk space: 173 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/opt/Xilinx/Vivado/2019.1/tps/lnx64/jre9.0.4
+Java executable location: 	/opt/Xilinx/Vivado/2019.1/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	smilo
+User home directory: /home/smilo
+User working directory: /home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/tools
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /opt/Xilinx/Vivado
+HDI_APPROOT: /opt/Xilinx/Vivado/2019.1
+RDI_DATADIR: /opt/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: /opt/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: /home/smilo/.Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: /home/smilo/.Xilinx/Vivado/2019.1/
+Vivado layouts directory: /home/smilo/.Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	/opt/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	/home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/tools/vivado.log
+Vivado journal file location: 	/home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/tools/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-3333-CeRICT-RECIPE-0
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /opt/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: /opt/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: /opt/Xilinx/Vivado/2019.1
+XILINX_SDK: /opt/Xilinx/SDK/2019.1
+XILINX_VIVADO: /opt/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: /opt/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	218 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,049 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// HMemoryUtils.trashcanNow. Engine heap size: 984 MB. GUI used memory: 46 MB. Current time: 12/11/19, 6:42:03 PM CET
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/smilo/Desktop/naplesPUalveo/project_1/project_1.xpr", 0); // q (O, cl)
+// [GUI Memory]: 60 MB (+60183kb) [00:00:37]
+// [Engine Memory]: 994 MB (+890558kb) [00:00:37]
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.xpr. Version: Vivado v2019.1.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/smilo/Desktop/naplesPUalveo/project_1/project_1.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,139 MB. GUI used memory: 47 MB. Current time: 12/11/19, 6:42:38 PM CET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 116 MB (+55720kb) [00:00:51]
+// [Engine Memory]: 1,217 MB (+181847kb) [00:00:51]
+// [GUI Memory]: 138 MB (+16661kb) [00:00:52]
+// [GUI Memory]: 158 MB (+14252kb) [00:00:52]
+// [Engine Memory]: 1,309 MB (+32437kb) [00:00:52]
+// [GUI Memory]: 168 MB (+2169kb) [00:00:52]
+// [GUI Memory]: 178 MB (+1123kb) [00:00:53]
+// WARNING: HEventQueue.dispatchEvent() is taking  4637 ms.
+// Tcl Message: open_project /home/smilo/Desktop/naplesPUalveo/project_1/project_1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/axitorouter_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/slaveaxi_1.0'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'. 
+// [Engine Memory]: 1,374 MB (+70kb) [00:00:55]
+// WARNING: HEventQueue.dispatchEvent() is taking  1801 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:34 ; elapsed = 00:00:16 . Memory (MB): peak = 6854.406 ; gain = 331.602 ; free physical = 60315 ; free virtual = 122415 
+// [Engine Memory]: 1,646 MB (+212846kb) [00:00:57]
+// Project name: project_1; location: /home/smilo/Desktop/naplesPUalveo/project_1; part: xcu280-fsvh2892-2L-e
+// Elapsed time: 19 seconds
+dismissDialog("Open Project"); // by (cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// by (cl):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// [GUI Memory]: 194 MB (+7711kb) [00:01:00]
+dismissDialog("Open Hardware Manager"); // by (cl)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cS, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// by (cl):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2019.1.3   **** Build date : Sep  4 2019 at 10:02:20     ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  2198 ms.
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/21770297J00CA 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.bit} [get_hw_devices xcu280_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.ltx} [get_hw_devices xcu280_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.ltx} [get_hw_devices xcu280_0] 
+// Tcl Message: current_hw_device [get_hw_devices xcu280_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_HBM_ADD
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// [Engine Memory]: 2,679 MB (+996812kb) [00:01:10]
+// [Engine Memory]: 2,995 MB (+191457kb) [00:01:12]
+// WARNING: HEventQueue.dispatchEvent() is taking  2345 ms.
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xcu280_0] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xcu280 (JTAG device index = 0) is programmed with a design that has 1 HBM core(s). INFO: [Labtools 27-2302] Device xcu280 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s). 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,749 MB. GUI used memory: 143 MB. Current time: 12/11/19, 6:43:04 PM CET
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+dismissDialog("Auto Connect"); // by (cl)
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// PAPropertyPanels.initPanels (hw_ila_1) elapsed time: 0.2s
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 18:43:10 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,816 MB. GUI used memory: 145 MB. Current time: 12/11/19, 6:43:12 PM CET
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 18:43:10 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Elapsed time: 109 seconds
+selectTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "pcie/design_1_i/probe4_0_1[31:0] ; ==   ; [H]   ; XXXX_XXXX ; probe4[31:0] ; ", 0, "==  ", 1); // A (O, cl)
+selectTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "pcie/design_1_i/probe4_0_1[31:0] ; ==   ; [H]   ; XXXX_XXXX ; probe4[31:0] ; ", 0, "==  ", 1); // A (O, cl)
+editTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "==  ", 0, "Operator", 1); // A (O, cl)
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property TRIGGER_COMPARE_VALUE neq32'hXXXX_XXXX [get_hw_probes pcie/design_1_i/probe4_0_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// TclEventType: HW_HBM_TEMP_UPDATE
+selectTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "pcie/design_1_i/probe4_0_1[31:0] ; !=   ; [H]   ; XXXX_XXXX ; probe4[31:0] ; ", 0, "XXXX_XXXX", 3); // A (O, cl)
+// [GUI Memory]: 204 MB (+314kb) [00:03:12]
+editTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "XXXX_XXXX", 0, "Value", 3); // A (O, cl)
+// TclEventType: HW_HBM_TEMP_UPDATE
+setText(PAResourceOtoP.ProbeValueTablePanel_TEXT_FIELD, "0001_0001", true); // bW (Q, ResizableWindow)
+editTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "XXXX_XXXX", 0, "Value", 3); // A (O, cl)
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Tcl Message: set_property TRIGGER_COMPARE_VALUE neq32'h0001_0001 [get_hw_probes pcie/design_1_i/probe4_0_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// TclEventType: HW_HBM_TEMP_UPDATE
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 18:45:13 
+// TclEventType: HW_HBM_TEMP_UPDATE
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// Run Command: PAResourceCommand.PACommandNames_STOP_TRIGGER
+// Tcl Message: wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2019-Dec-11 18:45:16 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 18:45:16 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,834 MB. GUI used memory: 149 MB. Current time: 12/11/19, 6:45:17 PM CET
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 18:45:16 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 18:45:20 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 18:45:20 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 18:45:22 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,946 MB. GUI used memory: 149 MB. Current time: 12/11/19, 6:45:23 PM CET
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 18:45:22 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 18:45:25 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,835 MB. GUI used memory: 175 MB. Current time: 12/11/19, 6:45:26 PM CET
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 18:45:25 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 18:45:27 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 18:45:27 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Elapsed time: 24 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 18:45:52 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,844 MB. GUI used memory: 147 MB. Current time: 12/11/19, 6:45:58 PM CET
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 18:45:57 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Elapsed time: 264 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 18:50:16 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,839 MB. GUI used memory: 190 MB. Current time: 12/11/19, 6:50:28 PM CET
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 18:50:28 
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Elapsed time: 21 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 18:50:37 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 18:50:37 
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 18:50:39 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,832 MB. GUI used memory: 148 MB. Current time: 12/11/19, 6:50:40 PM CET
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 18:50:39 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 18:50:42 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,848 MB. GUI used memory: 147 MB. Current time: 12/11/19, 6:50:43 PM CET
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 18:50:42 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Elapsed time: 509 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 18:59:11 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Elapsed time: 23 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// Run Command: PAResourceCommand.PACommandNames_STOP_TRIGGER
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Tcl Message: wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2019-Dec-11 18:59:35 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 18:59:35 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,841 MB. GUI used memory: 149 MB. Current time: 12/11/19, 6:59:36 PM CET
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 18:59:35 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 18:59:39 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Elapsed time: 27 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// Run Command: PAResourceCommand.PACommandNames_STOP_TRIGGER
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Tcl Message: wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2019-Dec-11 19:00:06 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:00:06 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:00:06 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:00:09 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,913 MB. GUI used memory: 148 MB. Current time: 12/11/19, 7:00:10 PM CET
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:00:09 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:00:12 
+// TclEventType: HW_HBM_TEMP_UPDATE
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// Run Command: PAResourceCommand.PACommandNames_STOP_TRIGGER
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Tcl Message: wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2019-Dec-11 19:00:18 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:00:18 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,841 MB. GUI used memory: 206 MB. Current time: 12/11/19, 7:00:19 PM CET
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:00:18 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:00:20 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:00:20 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:00:22 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,833 MB. GUI used memory: 194 MB. Current time: 12/11/19, 7:00:23 PM CET
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:00:22 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:00:24 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,841 MB. GUI used memory: 149 MB. Current time: 12/11/19, 7:00:25 PM CET
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:00:24 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:00:26 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:00:26 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:00:28 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 3,074 MB. GUI used memory: 149 MB. Current time: 12/11/19, 7:00:29 PM CET
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:00:28 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:00:30 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,842 MB. GUI used memory: 173 MB. Current time: 12/11/19, 7:00:31 PM CET
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:00:30 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:00:33 
+// TclEventType: HW_HBM_TEMP_UPDATE
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// Run Command: PAResourceCommand.PACommandNames_STOP_TRIGGER
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Tcl Message: wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2019-Dec-11 19:00:40 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:00:40 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:00:40 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Elapsed time: 73 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:01:53 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,850 MB. GUI used memory: 147 MB. Current time: 12/11/19, 7:02:13 PM CET
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:02:12 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Elapsed time: 231 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:05:45 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Elapsed time: 19 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// Run Command: PAResourceCommand.PACommandNames_STOP_TRIGGER
+// Tcl Message: wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2019-Dec-11 19:06:05 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:06:05 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,843 MB. GUI used memory: 149 MB. Current time: 12/11/19, 7:06:06 PM CET
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:06:05 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:06:09 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Elapsed time: 50 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// Run Command: PAResourceCommand.PACommandNames_STOP_TRIGGER
+// Tcl Message: wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2019-Dec-11 19:06:59 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:06:59 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:06:59 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Elapsed time: 123 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:09:03 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,835 MB. GUI used memory: 148 MB. Current time: 12/11/19, 7:09:04 PM CET
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:09:03 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:09:06 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,843 MB. GUI used memory: 147 MB. Current time: 12/11/19, 7:09:07 PM CET
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:09:06 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Elapsed time: 260 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:13:27 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:13:37 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Elapsed time: 118 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:15:25 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,851 MB. GUI used memory: 147 MB. Current time: 12/11/19, 7:15:39 PM CET
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:15:38 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Elapsed time: 17 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, -16, 185); // n (o, cl)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,836 MB. GUI used memory: 148 MB. Current time: 12/11/19, 7:15:43 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,836 MB. GUI used memory: 147 MB. Current time: 12/11/19, 7:15:44 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,836 MB. GUI used memory: 151 MB. Current time: 12/11/19, 7:15:44 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,836 MB. GUI used memory: 150 MB. Current time: 12/11/19, 7:15:44 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,836 MB. GUI used memory: 148 MB. Current time: 12/11/19, 7:15:47 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,836 MB. GUI used memory: 147 MB. Current time: 12/11/19, 7:15:49 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,836 MB. GUI used memory: 152 MB. Current time: 12/11/19, 7:15:54 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,836 MB. GUI used memory: 147 MB. Current time: 12/11/19, 7:15:55 PM CET
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Elapsed time: 53 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:16:36 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Elapsed time: 15 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// Run Command: PAResourceCommand.PACommandNames_STOP_TRIGGER
+// Tcl Message: wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2019-Dec-11 19:16:51 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:16:52 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:16:52 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:16:54 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,836 MB. GUI used memory: 148 MB. Current time: 12/11/19, 7:16:55 PM CET
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:16:54 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Elapsed time: 17 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:17:11 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,844 MB. GUI used memory: 149 MB. Current time: 12/11/19, 7:17:27 PM CET
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:17:26 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,836 MB. GUI used memory: 149 MB. Current time: 12/11/19, 7:17:30 PM CET
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Elapsed time: 133 seconds
+selectButton(PAResourceCommand.PACommandNames_RUN_TRIGGER, "Hardware_run_trigger"); // B (f, cl)
+selectButton(PAResourceCommand.PACommandNames_RUN_TRIGGER, "Hardware_run_trigger"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:19:28 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:24:27 
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,837 MB. GUI used memory: 150 MB. Current time: 12/11/19, 7:24:34 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,837 MB. GUI used memory: 177 MB. Current time: 12/11/19, 7:24:36 PM CET
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,837 MB. GUI used memory: 150 MB. Current time: 12/11/19, 7:24:38 PM CET
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Elapsed time: 394 seconds
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, pcie/design_1_i/probe4_0_1[31:0]]", 4, true); // a (r, cl) - Node
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,837 MB. GUI used memory: 150 MB. Current time: 12/11/19, 7:26:04 PM CET
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,837 MB. GUI used memory: 150 MB. Current time: 12/11/19, 7:26:05 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,837 MB. GUI used memory: 150 MB. Current time: 12/11/19, 7:26:06 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,837 MB. GUI used memory: 151 MB. Current time: 12/11/19, 7:26:07 PM CET
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,837 MB. GUI used memory: 148 MB. Current time: 12/11/19, 7:26:08 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,837 MB. GUI used memory: 150 MB. Current time: 12/11/19, 7:26:09 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,837 MB. GUI used memory: 148 MB. Current time: 12/11/19, 7:26:09 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,837 MB. GUI used memory: 148 MB. Current time: 12/11/19, 7:26:09 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,837 MB. GUI used memory: 151 MB. Current time: 12/11/19, 7:26:10 PM CET
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,837 MB. GUI used memory: 149 MB. Current time: 12/11/19, 7:26:11 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,837 MB. GUI used memory: 148 MB. Current time: 12/11/19, 7:26:12 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,837 MB. GUI used memory: 149 MB. Current time: 12/11/19, 7:26:12 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,837 MB. GUI used memory: 148 MB. Current time: 12/11/19, 7:26:12 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,837 MB. GUI used memory: 150 MB. Current time: 12/11/19, 7:26:12 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,837 MB. GUI used memory: 148 MB. Current time: 12/11/19, 7:26:14 PM CET
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Elapsed time: 231 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:29:54 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Elapsed time: 37 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:30:46 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,837 MB. GUI used memory: 146 MB. Current time: 12/11/19, 7:30:49 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,837 MB. GUI used memory: 146 MB. Current time: 12/11/19, 7:30:50 PM CET
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,837 MB. GUI used memory: 202 MB. Current time: 12/11/19, 7:31:03 PM CET
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,837 MB. GUI used memory: 149 MB. Current time: 12/11/19, 7:31:05 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Elapsed time: 138 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:32:50 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,846 MB. GUI used memory: 147 MB. Current time: 12/11/19, 7:32:50 PM CET
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:32:50 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Elapsed time: 972 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:49:02 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:49:14 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Elapsed time: 41 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:49:43 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,642 MB. GUI used memory: 84 MB. Current time: 12/11/19, 7:49:53 PM CET
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:49:52 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Elapsed time: 375 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:55:59 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,642 MB. GUI used memory: 85 MB. Current time: 12/11/19, 7:56:00 PM CET
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:56:00 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Elapsed time: 146 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:58:25 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:58:38 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 16 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 565, 118); // n (o, cl)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_HBM_TEMP_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,633 MB. GUI used memory: 84 MB. Current time: 12/11/19, 7:58:42 PM CET
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Elapsed time: 98 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 20:00:20 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 20:00:33 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Elapsed time: 243 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 20:04:24 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,713 MB. GUI used memory: 85 MB. Current time: 12/11/19, 8:04:47 PM CET
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 20:04:46 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Elapsed time: 362 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 20:10:27 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,642 MB. GUI used memory: 85 MB. Current time: 12/11/19, 8:10:40 PM CET
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 20:10:40 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE

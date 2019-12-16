@@ -1,0 +1,345 @@
+#-----------------------------------------------------------
+# Vivado v2019.1.3 (64-bit)
+# SW Build 2644227 on Wed Sep  4 09:44:18 MDT 2019
+# IP Build 2633630 on Wed Sep  4 12:30:14 MDT 2019
+# Start of session at: Wed Dec 11 18:41:42 2019
+# Process ID: 3333
+# Current directory: /home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/tools
+# Command line: vivado
+# Log file: /home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/tools/vivado.log
+# Journal file: /home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/tools/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/smilo/Desktop/naplesPUalveo/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/axitorouter_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/slaveaxi_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:34 ; elapsed = 00:00:16 . Memory (MB): peak = 6854.406 ; gain = 331.602 ; free physical = 60315 ; free virtual = 122415
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1.3
+  **** Build date : Sep  4 2019 at 10:02:20
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/21770297J00CA
+set_property PROGRAM.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.bit} [get_hw_devices xcu280_0]
+set_property PROBES.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.ltx} [get_hw_devices xcu280_0]
+set_property FULL_PROBES.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.ltx} [get_hw_devices xcu280_0]
+current_hw_device [get_hw_devices xcu280_0]
+refresh_hw_device [lindex [get_hw_devices xcu280_0] 0]
+INFO: [Labtools 27-2302] Device xcu280 (JTAG device index = 0) is programmed with a design that has 1 HBM core(s).
+INFO: [Labtools 27-2302] Device xcu280 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+update_compile_order -fileset sources_1
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 18:43:10
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 18:43:10
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property TRIGGER_COMPARE_VALUE neq32'hXXXX_XXXX [get_hw_probes pcie/design_1_i/probe4_0_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+set_property TRIGGER_COMPARE_VALUE neq32'h0001_0001 [get_hw_probes pcie/design_1_i/probe4_0_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 18:45:13
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2019-Dec-11 18:45:16
+WARNING: [Labtools 27-157] hw_ila [hw_ila_1] stopped. No data to upload.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 18:45:16
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 18:45:16
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 18:45:20
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 18:45:20
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 18:45:22
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 18:45:22
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 18:45:25
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 18:45:25
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 18:45:27
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 18:45:27
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 18:45:52
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 18:45:57
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 18:50:16
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 18:50:28
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 18:50:37
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 18:50:37
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 18:50:39
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 18:50:39
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 18:50:42
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 18:50:42
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 18:59:11
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2019-Dec-11 18:59:35
+WARNING: [Labtools 27-157] hw_ila [hw_ila_1] stopped. No data to upload.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 18:59:35
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 18:59:35
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 18:59:39
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2019-Dec-11 19:00:06
+WARNING: [Labtools 27-157] hw_ila [hw_ila_1] stopped. No data to upload.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:00:06
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:00:06
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:00:09
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:00:09
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:00:12
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2019-Dec-11 19:00:18
+WARNING: [Labtools 27-157] hw_ila [hw_ila_1] stopped. No data to upload.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:00:18
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:00:18
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:00:20
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:00:20
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:00:22
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:00:22
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:00:24
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:00:24
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:00:26
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:00:26
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:00:28
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:00:28
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:00:30
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:00:30
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:00:33
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2019-Dec-11 19:00:40
+WARNING: [Labtools 27-157] hw_ila [hw_ila_1] stopped. No data to upload.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:00:40
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:00:40
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:01:53
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:02:12
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:05:45
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2019-Dec-11 19:06:05
+WARNING: [Labtools 27-157] hw_ila [hw_ila_1] stopped. No data to upload.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:06:05
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:06:05
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:06:09
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2019-Dec-11 19:06:59
+WARNING: [Labtools 27-157] hw_ila [hw_ila_1] stopped. No data to upload.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:06:59
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:06:59
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:09:03
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:09:03
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:09:06
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:09:06
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:13:27
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:13:37
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:15:25
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:15:38
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:16:36
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2019-Dec-11 19:16:51
+WARNING: [Labtools 27-157] hw_ila [hw_ila_1] stopped. No data to upload.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:16:52
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:16:52
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:16:54
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:16:54
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:17:11
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:17:26
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:19:28
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:24:27
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:29:54
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:30:46
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:32:50
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:32:50
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:49:02
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:49:14
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:49:43
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:49:52
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:55:59
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:56:00
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 19:58:25
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 19:58:38
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 20:00:20
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 20:00:33
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 20:04:24
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 20:04:46
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Dec-11 20:10:27
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Dec-11 20:10:40
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.

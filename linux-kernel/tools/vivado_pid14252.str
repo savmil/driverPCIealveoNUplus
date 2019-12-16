@@ -1,0 +1,1109 @@
+/*
+
+Xilinx Vivado v2019.1.3 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2644227 on Wed Sep  4 09:44:18 MDT 2019
+IP Build: 2633630 on Wed Sep  4 12:30:14 MDT 2019
+
+Process ID (PID): 14252
+License: Customer
+
+Current time: 	Fri Nov 29 11:07:41 CET 2019
+Time zone: 	Central European Standard Time (Europe/Rome)
+
+OS: Ubuntu
+OS Version: 4.15.0-55-generic
+OS Architecture: amd64
+Available processors (cores): 32
+
+Display: :1.0
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Available disk space: 189 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/opt/Xilinx/Vivado/2019.1/tps/lnx64/jre9.0.4
+Java executable location: 	/opt/Xilinx/Vivado/2019.1/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	smilo
+User home directory: /home/smilo
+User working directory: /home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/tools
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /opt/Xilinx/Vivado
+HDI_APPROOT: /opt/Xilinx/Vivado/2019.1
+RDI_DATADIR: /opt/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: /opt/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: /home/smilo/.Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: /home/smilo/.Xilinx/Vivado/2019.1/
+Vivado layouts directory: /home/smilo/.Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	/opt/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	/home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/tools/vivado.log
+Vivado journal file location: 	/home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/tools/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-14252-CeRICT-RECIPE-0
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /opt/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: /opt/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: /opt/Xilinx/Vivado/2019.1
+XILINX_SDK: /opt/Xilinx/SDK/2019.1
+XILINX_VIVADO: /opt/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: /opt/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	199 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,031 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// HMemoryUtils.trashcanNow. Engine heap size: 985 MB. GUI used memory: 46 MB. Current time: 11/29/19, 11:07:44 AM CET
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/smilo/Desktop/naplesPUalveo/project_1/project_1.xpr", 0); // q (O, cl)
+// [GUI Memory]: 53 MB (+52915kb) [00:00:18]
+// [Engine Memory]: 996 MB (+892987kb) [00:00:18]
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.xpr. Version: Vivado v2019.1.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/smilo/Desktop/naplesPUalveo/project_1/project_1.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 47 MB. Current time: 11/29/19, 11:07:59 AM CET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 118 MB (+65211kb) [00:00:30]
+// [Engine Memory]: 1,206 MB (+167787kb) [00:00:30]
+// [GUI Memory]: 124 MB (+495kb) [00:00:30]
+// [GUI Memory]: 143 MB (+13392kb) [00:00:31]
+// [Engine Memory]: 1,282 MB (+16182kb) [00:00:31]
+// [GUI Memory]: 157 MB (+7153kb) [00:00:31]
+// WARNING: HEventQueue.dispatchEvent() is taking  4089 ms.
+// Tcl Message: open_project /home/smilo/Desktop/naplesPUalveo/project_1/project_1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/axitorouter_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/slaveaxi_1.0'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'. 
+// [Engine Memory]: 1,382 MB (+37503kb) [00:00:33]
+// WARNING: HEventQueue.dispatchEvent() is taking  1117 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:35 ; elapsed = 00:00:14 . Memory (MB): peak = 6876.363 ; gain = 351.180 ; free physical = 60030 ; free virtual = 122417 
+// Project name: project_1; location: /home/smilo/Desktop/naplesPUalveo/project_1; part: xcu280-fsvh2892-2L-e
+// [GUI Memory]: 170 MB (+4927kb) [00:00:35]
+// Elapsed time: 17 seconds
+dismissDialog("Open Project"); // by (cl)
+// [Engine Memory]: 1,463 MB (+13073kb) [00:00:41]
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 181 MB (+2471kb) [00:01:14]
+// Elapsed time: 41 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nexys4ddr_top (nexys4ddr_top.sv)]", 3); // B (F, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,528 MB. GUI used memory: 117 MB. Current time: 11/29/19, 11:08:49 AM CET
+// PAPropertyPanels.initPanels (nexys4ddr_top.sv) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nexys4ddr_top (nexys4ddr_top.sv)]", 3, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nexys4ddr_top (nexys4ddr_top.sv)]", 3, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Elapsed time: 12 seconds
+selectCodeEditor("nexys4ddr_top.sv", 60, 207); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 138, 438); // cl (w, cl)
+// [Engine Memory]: 1,540 MB (+4393kb) [00:01:49]
+// Elapsed time: 56 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// by (cl):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// Tcl Message: open_bd_design {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd} 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: Adding component instance block -- xilinx.com:ip:xdma:4.1 - xdma_0 Adding component instance block -- xilinx.com:ip:util_ds_buf:2.1 - util_ds_buf Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_interconnect_0 Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc Adding component instance block -- xilinx.com:ip:ila:6.2 - ila_0 
+// Tcl Message: INFO: [xilinx.com:ip:ila:6.2-6] /ila_0: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details. 
+// Tcl Message: Adding component instance block -- user.org:user:myip:1.0 - myip_0 Successfully read diagram <design_1> from BD file </home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd> 
+// TclEventType: RSB_OPEN_DIAGRAM
+// WARNING: HEventQueue.dispatchEvent() is taking  2012 ms.
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,569 MB. GUI used memory: 126 MB. Current time: 11/29/19, 11:10:14 AM CET
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:06 . Memory (MB): peak = 7076.461 ; gain = 0.000 ; free physical = 59773 ; free virtual = 122241 
+// 'bB' command handler elapsed time: 6 seconds
+dismissDialog("Open Block Design"); // by (cl)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 482, 99, 886, 547, false, false, false, true, false); // gl (k, cl) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // ae (an, cl)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // ae (an, cl)
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_DEBUG, "Debug"); // ah (an, cl)
+// Tcl Command: 'set_property HDL_ATTRIBUTE.DEBUG true [get_bd_nets {to_slv_reg2_0_1 }]'
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// by (cl):  Debug : addNotify
+// Tcl Message: set_property HDL_ATTRIBUTE.DEBUG true [get_bd_nets {to_slv_reg2_0_1 }] 
+// Tcl Message: true 
+dismissDialog("Debug"); // by (cl)
+// [Engine Memory]: 1,685 MB (+70350kb) [00:02:55]
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 481, 159, 886, 547, false, false, false, true, false); // gl (k, cl) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // ae (an, cl)
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_DEBUG, "Debug"); // ah (an, cl)
+// Tcl Command: 'set_property HDL_ATTRIBUTE.DEBUG true [get_bd_nets {to_slv_reg3_0_1 }]'
+// TclEventType: RSB_PROPERTY_CHANGE
+// [GUI Memory]: 190 MB (+717kb) [00:03:00]
+// by (cl):  Debug : addNotify
+// Tcl Message: set_property HDL_ATTRIBUTE.DEBUG true [get_bd_nets {to_slv_reg3_0_1 }] 
+// Tcl Message: true 
+dismissDialog("Debug"); // by (cl)
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h (cu, cl)
+// w (cl): Run Connection Automation: addNotify
+selectCheckBoxTree(PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, "[All Automation (2 out of 2 selected), Net Connections, to_slv_reg2_0_1]", 2, false, true, ui.utils.TriState.True); // K (O, w)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (w)
+dismissDialog("Run Connection Automation"); // w (cl)
+// by (cl):  Run Connection Automation : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:debug -dict [list \                                                           [get_bd_nets to_slv_reg3_0_1] {PROBE_TYPE "Data and Trigger" CLK_SRC "/xdma_0/axi_aclk" SYSTEM_ILA "Auto" } \                                                           [get_bd_nets to_slv_reg2_0_1] {PROBE_TYPE "Data and Trigger" CLK_SRC "/xdma_0/axi_aclk" SYSTEM_ILA "Auto" } \                                                          ] 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: Debug Automation : Instantiating new System ILA block '/system_ila_0' with mode NATIVE, 0 slot interface pins and 2 probe pins. Also setting parameters on this block, corresponding to newly enabled interface pins and probe pins as specified via Debug Automation. Debug Automation : Connecting source clock pin /xdma_0/axi_aclk to the following sink clock pins : /system_ila_0/clk Debug Automation : Connecting net /to_slv_reg3_0_1, to System ILA probe pin /system_ila_0/probe0 for debug. Debug Automation : Connecting net /to_slv_reg2_0_1, to System ILA probe pin /system_ila_0/probe1 for debug. 
+// Tcl Message: endgroup 
+dismissDialog("Run Connection Automation"); // by (cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,733 MB. GUI used memory: 133 MB. Current time: 11/29/19, 11:10:44 AM CET
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: delete_bd_objs [get_bd_cells system_ila_0] 
+// Elapsed time: 28 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// by (cl):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd} 
+dismissDialog("Open Block Design"); // by (cl)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// O (cl):  Re-customize IP : addNotify
+// r (cl): Re-customize IP: addNotify
+// Elapsed time: 11 seconds
+dismissDialog("Re-customize IP"); // O (cl)
+setText("Number of Probes", "4"); // z (bh, r)
+// WARNING: HEventQueue.dispatchEvent() is taking  1198 ms.
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Probe_Ports(0..3)", 1); // bg (E, r)
+setText("Probe2 Width", "32"); // z (bh)
+setText("Probe3 Width", "32"); // z (bh, r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+dismissDialog("Re-customize IP"); // r (cl)
+// Tcl Command: 'set_property -dict [list CONFIG.C_PROBE3_WIDTH {32} CONFIG.C_PROBE2_WIDTH {32} CONFIG.C_NUM_OF_PROBES {4}] [get_bd_cells ila_0]'
+// Tcl Message: startgroup 
+// r (cl): Re-customize IP: addNotify
+// by (r):  Customize IP : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property -dict [list CONFIG.C_PROBE3_WIDTH {32} CONFIG.C_PROBE2_WIDTH {32} CONFIG.C_NUM_OF_PROBES {4}] [get_bd_cells ila_0] 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: endgroup 
+dismissDialog("Customize IP"); // by (r)
+// [GUI Memory]: 201 MB (+957kb) [00:04:23]
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_ports to_slv_reg2_0] [get_bd_pins ila_0/probe2] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_ports to_slv_reg3_0] [get_bd_pins ila_0/probe3] 
+// Elapsed time: 159 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+// Elapsed time: 207 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// by (cl):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// WARNING: HEventQueue.dispatchEvent() is taking  1030 ms.
+// Tcl Message: open_hw 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Open Hardware Manager"); // by (cl)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cS, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,759 MB. GUI used memory: 143 MB. Current time: 11/29/19, 11:18:04 AM CET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// by (cl):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2019.1.3   **** Build date : Sep  4 2019 at 10:02:20     ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  2063 ms.
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/21770297J00CA 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.bit} [get_hw_devices xcu280_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.ltx} [get_hw_devices xcu280_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.ltx} [get_hw_devices xcu280_0] 
+// Tcl Message: current_hw_device [get_hw_devices xcu280_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// [Engine Memory]: 2,749 MB (+1027458kb) [00:10:37]
+// WARNING: HEventQueue.dispatchEvent() is taking  1682 ms.
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xcu280_0] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xcu280 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s). 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,802 MB. GUI used memory: 153 MB. Current time: 11/29/19, 11:18:11 AM CET
+dismissDialog("Auto Connect"); // by (cl)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 16 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Nov-29 11:18:28 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,814 MB. GUI used memory: 154 MB. Current time: 11/29/19, 11:18:29 AM CET
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Nov-29 11:18:28 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 14 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Nov-29 11:18:42 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Nov-29 11:18:42 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 43 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Nov-29 11:19:26 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,806 MB. GUI used memory: 155 MB. Current time: 11/29/19, 11:19:26 AM CET
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Nov-29 11:19:26 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 35 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Nov-29 11:20:01 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,814 MB. GUI used memory: 153 MB. Current time: 11/29/19, 11:20:03 AM CET
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Nov-29 11:20:01 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 40 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Nov-29 11:20:41 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Nov-29 11:20:41 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// by (cl):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd} 
+// [GUI Memory]: 212 MB (+1338kb) [00:13:37]
+dismissDialog("Open Block Design"); // by (cl)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// by (cl):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd} 
+dismissDialog("Open Block Design"); // by (cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectCodeEditor("nexys4ddr_top.sv", 428, 229); // cl (w, cl)
+// Elapsed time: 75 seconds
+selectCodeEditor("nexys4ddr_top.sv", 250, 51); // cl (w, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Waveform: addNotify
+// Waveform: addNotify
+// Waveform: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 2,809 MB. GUI used memory: 156 MB. Current time: 11/29/19, 11:22:47 AM CET
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Nov-29 11:22:49 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Nov-29 11:22:49 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 32 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// by (cl):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd} 
+dismissDialog("Open Block Design"); // by (cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nexys4ddr_top (nexys4ddr_top.sv)]", 3); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nexys4ddr_top (nexys4ddr_top.sv), u_uart_router : uart_router (uart_router.sv)]", 5, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nexys4ddr_top (nexys4ddr_top.sv), u_uart_router : uart_router (uart_router.sv)]", 5, false, false, false, false, false, true); // B (F, cl) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("uart_router.sv", 238, 261); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "nexys4ddr_top.sv", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_router.sv", 2); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "nexys4ddr_top.sv", 1); // k (j, cl)
+selectCodeEditor("nexys4ddr_top.sv", 211, 200); // cl (w, cl)
+// Elapsed time: 96 seconds
+selectCodeEditor("nexys4ddr_top.sv", 57, 48); // cl (w, cl)
+// Elapsed time: 30 seconds
+selectCodeEditor("nexys4ddr_top.sv", 201, 79); // cl (w, cl)
+// Elapsed time: 39 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Waveform: addNotify
+// Waveform: addNotify
+// Waveform: addNotify
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Nov-29 11:26:54 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,817 MB. GUI used memory: 203 MB. Current time: 11/29/19, 11:26:55 AM CET
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Nov-29 11:26:54 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 24 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Nov-29 11:27:19 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,836 MB. GUI used memory: 216 MB. Current time: 11/29/19, 11:27:20 AM CET
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Nov-29 11:27:19 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 30 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectCodeEditor("nexys4ddr_top.sv", 143, 285); // cl (w, cl)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_router.sv", 2); // k (j, cl)
+// Elapsed time: 10 seconds
+selectCodeEditor("uart_router.sv", 432, 435); // cl (w, cl)
+// Elapsed time: 61 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Waveform: addNotify
+// Waveform: addNotify
+// Waveform: addNotify
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Nov-29 11:29:23 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Nov-29 11:29:23 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 37 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Nov-29 11:30:02 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,924 MB. GUI used memory: 166 MB. Current time: 11/29/19, 11:30:02 AM CET
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Nov-29 11:30:02 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (O, cl)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 2); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// by (cl):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd} 
+dismissDialog("Open Block Design"); // by (cl)
+// [GUI Memory]: 224 MB (+1749kb) [00:22:40]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (O, cl)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// D (cl): Settings: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  2099 ms.
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (D)
+// [Engine Memory]: 2,924 MB (+39958kb) [00:22:46]
+dismissDialog("Settings"); // D (cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,924 MB. GUI used memory: 181 MB. Current time: 11/29/19, 11:30:19 AM CET
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+// [GUI Memory]: 238 MB (+2850kb) [00:30:32]
+// Elapsed time: 1417 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nexys4ddr_top (nexys4ddr_top.sv), u_uart_router : uart_router (uart_router.sv)]", 5, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nexys4ddr_top (nexys4ddr_top.sv), u_uart_router : uart_router (uart_router.sv)]", 5, false, false, false, false, false, true); // B (F, cl) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("uart_router.sv", 330, 268); // cl (w, cl)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "nexys4ddr_top.sv", 1); // k (j, cl)
+selectCodeEditor("nexys4ddr_top.sv", 216, 233); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 216, 233, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 39 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "router_uart_command_valid"); // l (aT, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_router.sv", 2); // k (j, cl)
+// Elapsed time: 60 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_router.sv", 2); // k (j, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Waveform: addNotify
+// Waveform: addNotify
+// Waveform: addNotify
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_router.sv", 2); // k (j, cl)
+// Elapsed time: 58 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true, false, false, false, false, true); // u (O, cl) - Double Click - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug]", 19, true); // u (O, cl) - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "nexys4ddr_top.sv", 0); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hw_ila_1", 1); // k (j, cl)
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Nov-29 11:57:48 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,949 MB. GUI used memory: 180 MB. Current time: 11/29/19, 11:57:49 AM CET
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Nov-29 11:57:48 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_router.sv", 2); // k (j, cl)
+// Elapsed time: 33 seconds
+selectCodeEditor("uart_router.sv", 198, 169); // cl (w, cl)
+selectCodeEditor("uart_router.sv", 198, 169, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 44 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hw_ila_1", 1); // k (j, cl)
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Nov-29 11:59:14 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Nov-29 11:59:14 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_router.sv", 2); // k (j, cl)
+// Elapsed time: 14 seconds
+selectCodeEditor("uart_router.sv", 396, 28); // cl (w, cl)
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "nexys4ddr_top.sv", 0); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hw_ila_1", 1); // k (j, cl)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_router.sv", 2); // k (j, cl)
+// Elapsed time: 34 seconds
+selectCodeEditor("uart_router.sv", 372, 49); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hw_ila_1", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "nexys4ddr_top.sv", 0); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_router.sv", 2); // k (j, cl)
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hw_ila_1", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "nexys4ddr_top.sv", 0); // k (j, cl)
+selectCodeEditor("nexys4ddr_top.sv", 231, 431); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 231, 431, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 22 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_router.sv", 2); // k (j, cl)
+// Elapsed time: 42 seconds
+selectCodeEditor("uart_router.sv", 192, 61); // cl (w, cl)
+// Elapsed time: 86 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// al (cl): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// by (cl):  Save Constraints : addNotify
+dismissDialog("Save Project"); // al (cl)
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : </home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd>  
+// A (cl): Synthesis is Out-of-date: addNotify
+dismissDialog("Save Constraints"); // by (cl)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cl)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run design_1_ila_0_0_synth_1 
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cx' command handler elapsed time: 10 seconds
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// by (cl):  Generate Bitstream : addNotify
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : </home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd>  
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_CLOSE_DIAGRAM
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: VHDL Output written to : /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/synth/design_1.v VHDL Output written to : /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/sim/design_1.v VHDL Output written to : /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block xdma_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block util_ds_buf . INFO: [BD 41-1029] Generation completed for the IP Integrator block myip_0 . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_0 . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_ds . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_pc . 
+// Tcl Message: Exporting to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl Generated Hardware Definition File /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/synth/design_1.hwdef 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_ds_0, cache-ID = 55a633c883827154; cache size = 494.062 MB. INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = db3354bff97adbb3; cache size = 494.062 MB. 
+// HMemoryUtils.trashcanNow. Engine heap size: 3,045 MB. GUI used memory: 170 MB. Current time: 11/29/19, 12:03:54 PM CET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Nov 29 12:03:55 2019] Launched design_1_ila_0_0_synth_1, synth_1... Run output will be captured here: design_1_ila_0_0_synth_1: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/design_1_ila_0_0_synth_1/runme.log synth_1: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/synth_1/runme.log [Fri Nov 29 12:03:55 2019] Launched impl_1... Run output will be captured here: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 8567.590 ; gain = 0.000 ; free physical = 58314 ; free virtual = 120856 
+dismissDialog("Generate Bitstream"); // by (cl)
+// [Engine Memory]: 3,088 MB (+18695kb) [00:56:24]
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 266 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cl): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("No Implementation Results Available"); // A (cl)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run design_1_ila_0_0_synth_1 
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cx' command handler elapsed time: 4 seconds
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: FILE_SET_CHANGE
+// by (cl):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: [Fri Nov 29 12:08:27 2019] Launched design_1_ila_0_0_synth_1, synth_1... Run output will be captured here: design_1_ila_0_0_synth_1: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/design_1_ila_0_0_synth_1/runme.log synth_1: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/synth_1/runme.log [Fri Nov 29 12:08:28 2019] Launched impl_1... Run output will be captured here: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HEventQueue.dispatchEvent() is taking  1053 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,065 MB. GUI used memory: 180 MB. Current time: 11/29/19, 12:33:55 PM CET
+// Elapsed time: 2061 seconds
+selectCodeEditor("uart_router.sv", 462, 460); // cl (w, cl)
+selectCodeEditor("uart_router.sv", 112, 10); // cl (w, cl)
+selectCodeEditor("uart_router.sv", 287, 269); // cl (w, cl)
+selectCodeEditor("uart_router.sv", 329, 333); // cl (w, cl)
+selectCodeEditor("uart_router.sv", 329, 401); // cl (w, cl)
+// Elapsed time: 95 seconds
+selectCodeEditor("uart_router.sv", 78, 421); // cl (w, cl)
+selectCodeEditor("uart_router.sv", 181, 309); // cl (w, cl)
+selectCodeEditor("uart_router.sv", 172, 340); // cl (w, cl)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ah (cl): Bitstream Generation Completed: addNotify
+// Elapsed time: 316 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (cl)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xcu280_0 (2) ; Programmed", 2, "xcu280_0 (2)", 0, true); // t (O, cl) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xcu280_0 (2) ; Programmed", 2, "xcu280_0 (2)", 0, true, false, false, false, true, false); // t (O, cl) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+applyEnter(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE, "/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.bit"); // am (al, bC)
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cl)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.ltx} [get_hw_devices xcu280_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.ltx} [get_hw_devices xcu280_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.bit} [get_hw_devices xcu280_0] 
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Tcl Message: program_hw_devices [get_hw_devices xcu280_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:50 ; elapsed = 00:00:49 . Memory (MB): peak = 8567.590 ; gain = 0.000 ; free physical = 57616 ; free virtual = 120842 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xcu280_0] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xcu280 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s). 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: add_wave -into {hw_ila_data_1.wcfg} -radix hex { {pcie/design_1_i/to_slv_reg2_0_1} {pcie/design_1_i/to_slv_reg3_0_1} } 
+// 'I' command handler elapsed time: 50 seconds
+// Elapsed time: 49 seconds
+dismissDialog("Program Device"); // by (cl)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hw_ila_1", 1); // k (j, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 3,075 MB. GUI used memory: 173 MB. Current time: 11/29/19, 12:50:55 PM CET
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Nov-29 12:51:00 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 3,083 MB. GUI used memory: 123 MB. Current time: 11/29/19, 12:51:01 PM CET
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Nov-29 12:51:00 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT

@@ -1,0 +1,3 @@
+/home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/xdma/xdma.ko
+/home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/xdma/libxdma.o /home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/xdma/xdma_cdev.o /home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/xdma/cdev_ctrl.o /home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/xdma/cdev_events.o /home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/xdma/cdev_sgdma.o /home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/xdma/cdev_xvc.o /home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/xdma/cdev_bypass.o /home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/xdma/xdma_mod.o
+

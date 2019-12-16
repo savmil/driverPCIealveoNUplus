@@ -1,0 +1,1 @@
+cmd_/home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/xdma/xdma.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/xdma/xdma.ko /home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/xdma/xdma.o /home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/xdma/xdma.mod.o ;  true

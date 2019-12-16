@@ -1,0 +1,366 @@
+/*
+
+Xilinx Vivado v2019.1.3 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2644227 on Wed Sep  4 09:44:18 MDT 2019
+IP Build: 2633630 on Wed Sep  4 12:30:14 MDT 2019
+
+Process ID (PID): 2362
+License: Customer
+
+Current time: 	Wed Dec 04 16:47:35 CET 2019
+Time zone: 	Central European Standard Time (Europe/Rome)
+
+OS: Ubuntu
+OS Version: 4.15.0-55-generic
+OS Architecture: amd64
+Available processors (cores): 32
+
+Display: :1.0
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Available disk space: 174 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/opt/Xilinx/Vivado/2019.1/tps/lnx64/jre9.0.4
+Java executable location: 	/opt/Xilinx/Vivado/2019.1/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	smilo
+User home directory: /home/smilo
+User working directory: /home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/tools
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /opt/Xilinx/Vivado
+HDI_APPROOT: /opt/Xilinx/Vivado/2019.1
+RDI_DATADIR: /opt/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: /opt/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: /home/smilo/.Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: /home/smilo/.Xilinx/Vivado/2019.1/
+Vivado layouts directory: /home/smilo/.Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	/opt/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	/home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/tools/vivado.log
+Vivado journal file location: 	/home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/tools/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-2362-CeRICT-RECIPE-0
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /opt/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: /opt/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: /opt/Xilinx/Vivado/2019.1
+XILINX_SDK: /opt/Xilinx/SDK/2019.1
+XILINX_VIVADO: /opt/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: /opt/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	206 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,058 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,005 MB. GUI used memory: 46 MB. Current time: 12/4/19, 4:47:37 PM CET
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/smilo/Desktop/naplesPUalveo/project_1/project_1.xpr", 0); // q (O, cl)
+// [GUI Memory]: 74 MB (+74755kb) [00:10:23]
+// [Engine Memory]: 1,017 MB (+915249kb) [00:10:23]
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.xpr. Version: Vivado v2019.1.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/smilo/Desktop/naplesPUalveo/project_1/project_1.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,132 MB. GUI used memory: 46 MB. Current time: 12/4/19, 4:57:57 PM CET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 112 MB (+36444kb) [00:10:36]
+// [Engine Memory]: 1,212 MB (+150778kb) [00:10:36]
+// [GUI Memory]: 134 MB (+17071kb) [00:10:36]
+// [GUI Memory]: 157 MB (+17342kb) [00:10:37]
+// [Engine Memory]: 1,287 MB (+14651kb) [00:10:38]
+// WARNING: HEventQueue.dispatchEvent() is taking  4464 ms.
+// Tcl Message: open_project /home/smilo/Desktop/naplesPUalveo/project_1/project_1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/axitorouter_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/slaveaxi_1.0'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'. 
+// [GUI Memory]: 171 MB (+5633kb) [00:10:40]
+// [Engine Memory]: 1,353 MB (+1913kb) [00:10:40]
+// WARNING: HEventQueue.dispatchEvent() is taking  1913 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:36 ; elapsed = 00:00:15 . Memory (MB): peak = 6823.285 ; gain = 281.219 ; free physical = 41121 ; free virtual = 109824 
+// Project name: project_1; location: /home/smilo/Desktop/naplesPUalveo/project_1; part: xcu280-fsvh2892-2L-e
+// [Engine Memory]: 1,578 MB (+165659kb) [00:10:42]
+// Elapsed time: 19 seconds
+dismissDialog("Open Project"); // by (cl)
+// [Engine Memory]: 1,784 MB (+132779kb) [00:10:43]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, cl) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, cl) - Node
+// [GUI Memory]: 190 MB (+11148kb) [00:10:49]
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,665 MB. GUI used memory: 132 MB. Current time: 12/4/19, 4:58:17 PM CET
+// PAPropertyPanels.initPanels (nexys4ddr_top.sv) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nexys4ddr_top (nexys4ddr_top.sv)]", 3, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nexys4ddr_top (nexys4ddr_top.sv)]", 3, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Elapsed time: 16 seconds
+selectCodeEditor("nexys4ddr_top.sv", 228, 292); // cl (w, cl)
+// Elapsed time: 10 seconds
+selectCodeEditor("nexys4ddr_top.sv", 67, 77); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 558, 443); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 558, 443, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 21 seconds
+selectCodeEditor("nexys4ddr_top.sv", 153, 356); // cl (w, cl)
+// Elapsed time: 26 seconds
+selectCodeEditor("nexys4ddr_top.sv", 275, 308); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 275, 308, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "nexys4ddr_top.sv", 'c'); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 178, 198); // cl (w, cl)
+typeControlKey((HResource) null, "nexys4ddr_top.sv", 'v'); // cl (w, cl)
+// Elapsed time: 16 seconds
+selectCodeEditor("nexys4ddr_top.sv", 219, 219); // cl (w, cl)
+// Elapsed time: 34 seconds
+selectCodeEditor("nexys4ddr_top.sv", 267, 226); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 264, 219); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 264, 219, false, false, false, true, false); // cl (w, cl) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // ah (an, Popup.HeavyWeightWindow)
+// Elapsed time: 10 seconds
+selectCodeEditor("nexys4ddr_top.sv", 0, 219); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 407, 220); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 180, 167); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 231, 231); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 231, 231, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("nexys4ddr_top.sv", 100, 186); // cl (w, cl)
+// Elapsed time: 15 seconds
+selectCodeEditor("nexys4ddr_top.sv", 36, 239); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 28, 231); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 199, 270); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 114, 261); // cl (w, cl)
+typeControlKey((HResource) null, "nexys4ddr_top.sv", 'v'); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 4, 262); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 226, 268); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 260, 302); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 75, 227); // cl (w, cl)
+// Elapsed time: 20 seconds
+selectCodeEditor("nexys4ddr_top.sv", 158, 173); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 398, 281); // cl (w, cl)
+// Elapsed time: 10 seconds
+selectCodeEditor("nexys4ddr_top.sv", 241, 274); // cl (w, cl)
+// Elapsed time: 15 seconds
+selectCodeEditor("nexys4ddr_top.sv", 183, 274); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 183, 274, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("nexys4ddr_top.sv", 183, 274); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 183, 274, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "nexys4ddr_top.sv", 'c'); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 210, 323); // cl (w, cl)
+typeControlKey((HResource) null, "nexys4ddr_top.sv", 'v'); // cl (w, cl)
+// Elapsed time: 55 seconds
+selectCodeEditor("nexys4ddr_top.sv", 283, 298); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 22 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cl): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// by (cl):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (cl)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cx' command handler elapsed time: 4 seconds
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// by (cl):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Dec  4 17:04:18 2019] Launched synth_1... Run output will be captured here: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/synth_1/runme.log [Wed Dec  4 17:04:18 2019] Launched impl_1... Run output will be captured here: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ah (cl): Synthesis Failed: addNotify
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 25 seconds
+selectCheckBox(PAResourceCommand.PACommandNames_MESSAGE_WINDOW, "View Messages", true); // g (Q, ah): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (cl)
+// Elapsed time: 75 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cl): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("No Implementation Results Available"); // A (cl)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cx' command handler elapsed time: 6 seconds
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// by (cl):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// Tcl Message: [Wed Dec  4 17:06:06 2019] Launched synth_1... Run output will be captured here: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/synth_1/runme.log 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Dec  4 17:06:06 2019] Launched impl_1... Run output will be captured here: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ah (cl): Synthesis Failed: addNotify
+// Elapsed time: 25 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (cl)
+// Elapsed time: 33 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cl): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("No Implementation Results Available"); // A (cl)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cx' command handler elapsed time: 4 seconds
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// by (cl):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// Tcl Message: [Wed Dec  4 17:07:11 2019] Launched synth_1... Run output will be captured here: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/synth_1/runme.log [Wed Dec  4 17:07:11 2019] Launched impl_1... Run output will be captured here: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 18 seconds
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aK (aH, cl)
+// Elapsed time: 33 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Queued... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; 00:00:00 ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xcu280-fsvh2892-2L-e ;  ; Default settings for Implementation.", 1, "Queued...", 2, false); // ay (O, cl)
+// PAPropertyPanels.initPanels (impl_1) elapsed time: 0.4s
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Wed Dec 04 17:07:12 CET 2019 ; 00:00:22 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcu280-fsvh2892-2L-e ;  ; Vivado Synthesis Defaults", 0, "Running synth_design...", 2, true); // ay (O, cl) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Queued... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; 00:00:00 ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xcu280-fsvh2892-2L-e ;  ; Default settings for Implementation.", 1, "Queued...", 2, false); // ay (O, cl)
+// [GUI Memory]: 203 MB (+4441kb) [00:23:38]

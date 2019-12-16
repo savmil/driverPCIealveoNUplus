@@ -1,0 +1,446 @@
+/*
+
+Xilinx Vivado v2019.1.3 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2644227 on Wed Sep  4 09:44:18 MDT 2019
+IP Build: 2633630 on Wed Sep  4 12:30:14 MDT 2019
+
+Process ID (PID): 4908
+License: Customer
+
+Current time: 	Thu Dec 12 16:08:55 CET 2019
+Time zone: 	Central European Standard Time (Europe/Rome)
+
+OS: Ubuntu
+OS Version: 4.15.0-55-generic
+OS Architecture: amd64
+Available processors (cores): 32
+
+Display: :1.0
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Available disk space: 174 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/opt/Xilinx/Vivado/2019.1/tps/lnx64/jre9.0.4
+Java executable location: 	/opt/Xilinx/Vivado/2019.1/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	smilo
+User home directory: /home/smilo
+User working directory: /home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/tools
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /opt/Xilinx/Vivado
+HDI_APPROOT: /opt/Xilinx/Vivado/2019.1
+RDI_DATADIR: /opt/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: /opt/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: /home/smilo/.Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: /home/smilo/.Xilinx/Vivado/2019.1/
+Vivado layouts directory: /home/smilo/.Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	/opt/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	/home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/tools/vivado.log
+Vivado journal file location: 	/home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/tools/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-4908-CeRICT-RECIPE-0
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /opt/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: /opt/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: /opt/Xilinx/Vivado/2019.1
+XILINX_SDK: /opt/Xilinx/SDK/2019.1
+XILINX_VIVADO: /opt/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: /opt/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	200 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,065 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,019 MB. GUI used memory: 46 MB. Current time: 12/12/19, 4:08:57 PM CET
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/smilo/Desktop/pcie_HBM/pcie.xpr", 5); // q (O, cl)
+// [GUI Memory]: 85 MB (+86825kb) [00:00:27]
+// [Engine Memory]: 1,105 MB (+1007348kb) [00:00:27]
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: /home/smilo/Desktop/pcie_HBM/pcie.xpr. Version: Vivado v2019.1.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/smilo/Desktop/pcie_HBM/pcie.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,080 MB. GUI used memory: 47 MB. Current time: 12/12/19, 4:09:17 PM CET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 154 MB (+67495kb) [00:00:41]
+// [Engine Memory]: 1,246 MB (+90008kb) [00:00:41]
+// [Engine Memory]: 1,345 MB (+37791kb) [00:00:43]
+// WARNING: HEventQueue.dispatchEvent() is taking  4503 ms.
+// Tcl Message: open_project /home/smilo/Desktop/pcie_HBM/pcie.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'. 
+// [GUI Memory]: 172 MB (+11475kb) [00:00:44]
+// WARNING: HEventQueue.dispatchEvent() is taking  1137 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:38 ; elapsed = 00:00:16 . Memory (MB): peak = 6874.426 ; gain = 313.492 ; free physical = 60402 ; free virtual = 122480 
+// Project name: pcie; location: /home/smilo/Desktop/pcie_HBM; part: xcu280-fsvh2892-2L-e
+// [Engine Memory]: 1,438 MB (+27128kb) [00:00:46]
+// Elapsed time: 18 seconds
+dismissDialog("Open Project"); // by (cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,438 MB. GUI used memory: 128 MB. Current time: 12/12/19, 4:09:32 PM CET
+// [Engine Memory]: 1,563 MB (+55620kb) [00:00:49]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, cl) - Node
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcie_wrapper (pcie_wrapper.v)]", 1); // B (F, cl)
+// PAPropertyPanels.initPanels (pcie_wrapper.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcie_wrapper (pcie_wrapper.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcie_wrapper (pcie_wrapper.v)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// [GUI Memory]: 185 MB (+4501kb) [00:00:55]
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 8, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// A (cl): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// by (cl):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A (cl)
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] /home/smilo/Desktop/pcie_HBM/pcie.srcs/sources_1/bd/pcie/pcie.bd] 
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xcu280-fsvh2892-2L-e Top: pcie_wrapper 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,607 MB. GUI used memory: 131 MB. Current time: 12/12/19, 4:10:07 PM CET
+// TclEventType: ELABORATE_START
+// TclEventType: ELABORATE_FINISH
+// HMemoryUtils.trashcanNow. Engine heap size: 2,779 MB. GUI used memory: 131 MB. Current time: 12/12/19, 4:10:32 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,127 MB. GUI used memory: 131 MB. Current time: 12/12/19, 4:10:52 PM CET
+// [Engine Memory]: 3,357 MB (+1799891kb) [00:02:18]
+// HMemoryUtils.trashcanNow. Engine heap size: 3,521 MB. GUI used memory: 131 MB. Current time: 12/12/19, 4:11:12 PM CET
+// Elapsed time: 83 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (by)
+// 'dR' command handler elapsed time: 86 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // ae (cl)
+// [Engine Memory]: 3,560 MB (+35929kb) [00:02:40]
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // Z (q, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 3,565 MB. GUI used memory: 131 MB. Current time: 12/12/19, 4:11:27 PM CET
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // Z (q, cl)
+selectButton("HStatusBar_ProgressStatusItem_Cancel", "Cancel"); // NullButton (ag, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 3,927 MB. GUI used memory: 131 MB. Current time: 12/12/19, 4:11:47 PM CET
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_CLOSE
+// [Engine Memory]: 3,932 MB (+204178kb) [00:03:05]
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: INFO: [Device 21-403] Loading part xcu280-fsvh2892-2L-e 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 8037.738 ; gain = 34.680 ; free physical = 59011 ; free virtual = 121197 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'pcie_wrapper' [/home/smilo/Desktop/pcie_HBM/pcie.srcs/sources_1/bd/pcie/hdl/pcie_wrapper.v:12] INFO: [Synth 8-6157] synthesizing module 'bram' [/home/smilo/Desktop/pcie_HBM/pcie.srcs/sources_1/new/bram.sv:23] INFO: [Synth 8-6157] synthesizing module 'BRAM_SINGLE_MACRO' [/opt/Xilinx/Vivado/2019.1/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:30] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'RAMB36E1' [/opt/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp.v:75883] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'RAMB36E1' (1#1) [/opt/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp.v:75883] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'BRAM_SINGLE_MACRO' (2#1) [/opt/Xilinx/Vivado/2019.1/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:30] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'bram' (3#1) [/home/smilo/Desktop/pcie_HBM/pcie.srcs/sources_1/new/bram.sv:23] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'pcie_smartconnect_0_0' [/home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/tools/.Xil/Vivado-4908-CeRICT-RECIPE-0/realtime/pcie_smartconnect_0_0_stub.v:6] INFO: [Synth 8-6155] done synthesizing module 'pcie_smartconnect_0_0' (13#1) [/home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/tools/.Xil/Vivado-4908-CeRICT-RECIPE-0/realtime/pcie_smartconnect_0_0_stub.v:6] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'pcie_xlconstant_0_2' [/home/smilo/Desktop/pcie_HBM/pcie.srcs/sources_1/bd/pcie/ip/pcie_xlconstant_0_2/synth/pcie_xlconstant_0_2.v:57] INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_6_xlconstant' [/home/smilo/Desktop/pcie_HBM/pcie.srcs/sources_1/bd/pcie/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23] 
+// Tcl Message: 	Parameter CONST_VAL bound to: 0 - type: integer  	Parameter CONST_WIDTH bound to: 1 - type: integer  
+// CommandFailedException: ERROR: [Common 17-69] Command failed:  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_6_xlconstant' (17#1) [/home/smilo/Desktop/pcie_HBM/pcie.srcs/sources_1/bd/pcie/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23] INFO: [Synth 8-6155] done synthesizing module 'pcie_xlconstant_0_2' (18#1) [/home/smilo/Desktop/pcie_HBM/pcie.srcs/sources_1/bd/pcie/ip/pcie_xlconstant_0_2/synth/pcie_xlconstant_0_2.v:57] INFO: [Synth 8-6157] synthesizing module 'pcie_xlslice_0_2' [/home/smilo/Desktop/pcie_HBM/pcie.srcs/sources_1/bd/pcie/ip/pcie_xlslice_0_2/synth/pcie_xlslice_0_2.v:57] INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_2_xlslice' [/home/smilo/Desktop/pcie_HBM/pcie.srcs/sources_1/bd/pcie/ipshared/f044/hdl/xlslice_v1_0_vl_rfs.v:13] 
+// Tcl Message: 	Parameter DIN_WIDTH bound to: 26 - type: integer  	Parameter DIN_FROM bound to: 0 - type: integer  	Parameter DIN_TO bound to: 0 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_2_xlslice' (19#1) [/home/smilo/Desktop/pcie_HBM/pcie.srcs/sources_1/bd/pcie/ipshared/f044/hdl/xlslice_v1_0_vl_rfs.v:13] INFO: [Synth 8-6155] done synthesizing module 'pcie_xlslice_0_2' (20#1) [/home/smilo/Desktop/pcie_HBM/pcie.srcs/sources_1/bd/pcie/ip/pcie_xlslice_0_2/synth/pcie_xlslice_0_2.v:57] INFO: [Synth 8-6155] done synthesizing module 'pcie' (21#1) [/home/smilo/Desktop/pcie_HBM/pcie.srcs/sources_1/bd/pcie/synth/pcie.v:13] INFO: [Synth 8-6155] done synthesizing module 'pcie_wrapper' (22#1) [/home/smilo/Desktop/pcie_HBM/pcie.srcs/sources_1/bd/pcie/hdl/pcie_wrapper.v:12] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 8079.645 ; gain = 76.586 ; free physical = 59030 ; free virtual = 121218 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 8098.457 ; gain = 95.398 ; free physical = 59029 ; free virtual = 121217 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 8098.457 ; gain = 95.398 ; free physical = 59029 ; free virtual = 121217 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Opt 31-140] Inserted 2 IBUFs to IO ports without IO buffers. INFO: [Opt 31-141] Inserted 3 OBUFs to IO ports without IO buffers. 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine 
+// Tcl Message: Parsing XDC File [/home/smilo/Desktop/pcie_HBM/pcie.srcs/constrs_1/new/constraint.xdc] Finished Parsing XDC File [/home/smilo/Desktop/pcie_HBM/pcie.srcs/constrs_1/new/constraint.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: 64 Infos, 44 Warnings, 15 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:01:50 ; elapsed = 00:01:53 . Memory (MB): peak = 9282.680 ; gain = 2157.133 ; free physical = 58435 ; free virtual = 120686 
+// Tcl Message: INFO: [Common 17-344] 'synth_design' was cancelled 
+// S (cl): Critical Messages: addNotify
+dismissDialog("Open Elaborated Design"); // by (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (S)
+dismissDialog("Critical Messages"); // S (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, "Create and Package New IP..."); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD
+// Q (cl): Create and Package New IP: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+selectRadioButton(PAResourceItoN.NewIpWizard_CREATE_NEW_AXI4_IP_CREATE_AXI4, "Create a new AXI4 peripheral. Create an AXI4 IP, driver, software test application, IP Integrator AXI4 VIP simulation and debug demonstration design."); // b (a, Q)
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+selectComboBox(PAResourceItoN.NewIpWizard_INTERFACE_TYPE, "Full", 1); // e (E, Q)
+// Elapsed time: 12 seconds
+selectButton("CANCEL", "Cancel"); // JButton (j, Q)
+// 'q' command handler elapsed time: 25 seconds
+dismissDialog("Create and Package New IP"); // Q (cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 3,957 MB. GUI used memory: 137 MB. Current time: 12/12/19, 4:41:47 PM CET
+// Elapsed time: 2816 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent"); // ae (cl)
+selectMenuItem(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "/home/smilo/Desktop/naplesPUalveo/project_1/project_1.xpr"); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 3,758 MB. GUI used memory: 58 MB. Current time: 12/12/19, 4:59:34 PM CET
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.xpr. Version: Vivado v2019.1.3 
+selectButton("OptionPane.button", "Yes"); // JButton (A, G)
+// Tcl Message: close_project 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  2335 ms.
+// Tcl Message: open_project /home/smilo/Desktop/naplesPUalveo/project_1/project_1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/axitorouter_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/slaveaxi_1.0'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'. 
+// WARNING: HEventQueue.dispatchEvent() is taking  1662 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1095 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:08 . Memory (MB): peak = 9282.680 ; gain = 0.000 ; free physical = 45840 ; free virtual = 120269 
+// [GUI Memory]: 196 MB (+1515kb) [00:51:00]
+// [Engine Memory]: 4,969 MB (+880379kb) [00:51:00]
+// Project name: project_1; location: /home/smilo/Desktop/naplesPUalveo/project_1; part: xcu280-fsvh2892-2L-e
+// Elapsed time: 11 seconds
+dismissDialog("Open Project"); // by (cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,161 MB. GUI used memory: 134 MB. Current time: 12/12/19, 4:59:52 PM CET
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 67 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// by (cl):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Open Hardware Manager"); // by (cl)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cS, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 INFO: [Labtools 27-2222] Launching hw_server... 
+// by (cl):  Auto Connect : addNotify
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2019.1.3   **** Build date : Sep  4 2019 at 10:02:20     ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  2157 ms.
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/21770297J00CA 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.bit} [get_hw_devices xcu280_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.ltx} [get_hw_devices xcu280_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.ltx} [get_hw_devices xcu280_0] 
+// Tcl Message: current_hw_device [get_hw_devices xcu280_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xcu280_0] 0] 
+// TclEventType: HW_HBM_ADD
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_VIO_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  1982 ms.
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-2302] Device xcu280 (JTAG device index = 0) is programmed with a design that has 1 HBM core(s). INFO: [Labtools 27-2302] Device xcu280 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s). INFO: [Labtools 27-2302] Device xcu280 (JTAG device index = 0) is programmed with a design that has 1 VIO core(s). 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_ILA_CHANGE
+dismissDialog("Auto Connect"); // by (cl)
+// TclEventType: HW_HBM_TEMP_UPDATE
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xcu280_0 (4) ; Programmed", 2, "xcu280_0 (4)", 0, true); // t (O, cl) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xcu280_0 (4) ; Programmed", 2, "xcu280_0 (4)", 0, true); // t (O, cl) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xcu280_0 (4) ; Programmed", 2, "xcu280_0 (4)", 0, true, false, false, false, true, false); // t (O, cl) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+// TclEventType: HW_HBM_TEMP_UPDATE
+applyEnter(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE, "/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.bit"); // am (al, bC)
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cl)
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Tcl Message: set_property PROBES.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.ltx} [get_hw_devices xcu280_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.ltx} [get_hw_devices xcu280_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.bit} [get_hw_devices xcu280_0] 
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_HBM_DELETE
+// TclEventType: HW_DEVICE_UPDATE
+// Tcl Message: program_hw_devices [get_hw_devices xcu280_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:51 ; elapsed = 00:00:49 . Memory (MB): peak = 9554.125 ; gain = 0.000 ; free physical = 44603 ; free virtual = 119130 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xcu280_0] 0] 
+// TclEventType: HW_HBM_ADD
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: INFO: [Labtools 27-2302] Device xcu280 (JTAG device index = 0) is programmed with a design that has 1 HBM core(s). INFO: [Labtools 27-2302] Device xcu280 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s). 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_HBM_TEMP_UPDATE
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// 'I' command handler elapsed time: 52 seconds
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 51 seconds
+dismissDialog("Program Device"); // by (cl)
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_HBM_TEMP_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_HBM_TEMP_UPDATE

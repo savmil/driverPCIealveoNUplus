@@ -1,0 +1,1647 @@
+/*
+
+Xilinx Vivado v2019.1.3 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2644227 on Wed Sep  4 09:44:18 MDT 2019
+IP Build: 2633630 on Wed Sep  4 12:30:14 MDT 2019
+
+Process ID (PID): 2639
+License: Customer
+
+Current time: 	Thu Nov 28 16:52:05 CET 2019
+Time zone: 	Central European Standard Time (Europe/Rome)
+
+OS: Ubuntu
+OS Version: 4.15.0-55-generic
+OS Architecture: amd64
+Available processors (cores): 32
+
+Display: :1.0
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Available disk space: 189 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/opt/Xilinx/Vivado/2019.1/tps/lnx64/jre9.0.4
+Java executable location: 	/opt/Xilinx/Vivado/2019.1/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	smilo
+User home directory: /home/smilo
+User working directory: /home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /opt/Xilinx/Vivado
+HDI_APPROOT: /opt/Xilinx/Vivado/2019.1
+RDI_DATADIR: /opt/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: /opt/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: /home/smilo/.Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: /home/smilo/.Xilinx/Vivado/2019.1/
+Vivado layouts directory: /home/smilo/.Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	/opt/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	/home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/vivado.log
+Vivado journal file location: 	/home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-2639-CeRICT-RECIPE-0
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /opt/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: /opt/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: /opt/Xilinx/Vivado/2019.1
+XILINX_SDK: /opt/Xilinx/SDK/2019.1
+XILINX_VIVADO: /opt/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: /opt/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	192 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,016 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// HMemoryUtils.trashcanNow. Engine heap size: 977 MB. GUI used memory: 46 MB. Current time: 11/28/19, 4:52:07 PM CET
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/smilo/Desktop/naplesPUalveo/project_1/project_1.xpr", 0); // q (O, cl)
+// [GUI Memory]: 74 MB (+75334kb) [00:00:26]
+// [Engine Memory]: 988 MB (+884369kb) [00:00:26]
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.xpr. Version: Vivado v2019.1.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/smilo/Desktop/naplesPUalveo/project_1/project_1.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,111 MB. GUI used memory: 47 MB. Current time: 11/28/19, 4:52:27 PM CET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 116 MB (+39434kb) [00:00:38]
+// [Engine Memory]: 1,198 MB (+168583kb) [00:00:38]
+// [GUI Memory]: 123 MB (+1958kb) [00:00:39]
+// [GUI Memory]: 143 MB (+13962kb) [00:00:39]
+// [GUI Memory]: 156 MB (+6644kb) [00:00:40]
+// [Engine Memory]: 1,272 MB (+15149kb) [00:00:40]
+// WARNING: HEventQueue.dispatchEvent() is taking  4150 ms.
+// Tcl Message: open_project /home/smilo/Desktop/naplesPUalveo/project_1/project_1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/axitorouter_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/slaveaxi_1.0'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'. 
+// WARNING: HEventQueue.dispatchEvent() is taking  1061 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:14 . Memory (MB): peak = 6817.340 ; gain = 302.898 ; free physical = 60498 ; free virtual = 122558 
+// [Engine Memory]: 1,367 MB (+32549kb) [00:00:43]
+// Project name: project_1; location: /home/smilo/Desktop/naplesPUalveo/project_1; part: xcu280-fsvh2892-2L-e
+// Elapsed time: 17 seconds
+dismissDialog("Open Project"); // by (cl)
+// [Engine Memory]: 1,448 MB (+13244kb) [00:00:50]
+// [GUI Memory]: 178 MB (+15022kb) [00:00:50]
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// by (cl):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// [Engine Memory]: 1,539 MB (+18872kb) [00:00:54]
+dismissDialog("Open Hardware Manager"); // by (cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,539 MB. GUI used memory: 120 MB. Current time: 11/28/19, 4:52:52 PM CET
+// Elapsed time: 18 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cS, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// by (cl):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2019.1.3   **** Build date : Sep  4 2019 at 10:02:20     ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  2198 ms.
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/21770297J00CA 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.bit} [get_hw_devices xcu280_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.ltx} [get_hw_devices xcu280_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.ltx} [get_hw_devices xcu280_0] 
+// Tcl Message: current_hw_device [get_hw_devices xcu280_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// [Engine Memory]: 2,512 MB (+940081kb) [00:01:21]
+// WARNING: HEventQueue.dispatchEvent() is taking  2005 ms.
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xcu280_0] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xcu280 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s). 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,513 MB. GUI used memory: 127 MB. Current time: 11/28/19, 4:53:17 PM CET
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,575 MB. GUI used memory: 133 MB. Current time: 11/28/19, 4:53:18 PM CET
+dismissDialog("Auto Connect"); // by (cl)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Nov-28 16:53:25 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,583 MB. GUI used memory: 131 MB. Current time: 11/28/19, 4:53:27 PM CET
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Nov-28 16:53:25 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 14 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Nov-28 16:53:40 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Nov-28 16:53:40 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Nov-28 16:53:43 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,578 MB. GUI used memory: 131 MB. Current time: 11/28/19, 4:53:43 PM CET
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Nov-28 16:53:43 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 35 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Nov-28 16:54:19 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,587 MB. GUI used memory: 131 MB. Current time: 11/28/19, 4:54:19 PM CET
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Nov-28 16:54:19 
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (JPopupMenu)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+// Elapsed time: 28 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Nov-28 16:55:01 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Nov-28 16:55:01 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// by (cl):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: open_bd_design {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd} 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: Adding component instance block -- xilinx.com:ip:xdma:4.1 - xdma_0 Adding component instance block -- xilinx.com:ip:util_ds_buf:2.1 - util_ds_buf Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_interconnect_0 Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc Adding component instance block -- xilinx.com:ip:ila:6.2 - ila_0 
+// Tcl Message: INFO: [xilinx.com:ip:ila:6.2-6] /ila_0: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details. 
+// Tcl Message: Adding component instance block -- user.org:user:myip:1.0 - myip_0 Successfully read diagram <design_1> from BD file </home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd> 
+// TclEventType: RSB_OPEN_DIAGRAM
+// WARNING: HEventQueue.dispatchEvent() is taking  2271 ms.
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,629 MB. GUI used memory: 137 MB. Current time: 11/28/19, 4:55:27 PM CET
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 8145.617 ; gain = 0.000 ; free physical = 59106 ; free virtual = 121275 
+// 'bB' command handler elapsed time: 6 seconds
+dismissDialog("Open Block Design"); // by (cl)
+// [Engine Memory]: 2,638 MB (+587kb) [00:03:33]
+// [GUI Memory]: 192 MB (+4793kb) [00:03:34]
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 607, 303, 886, 547, false, false, false, true, false); // gl (k, cl) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k (cl): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (k)
+// by (cl):  Edit in IP Packager : addNotify
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name myip_v1_0_project -directory /home/smilo/Desktop/naplesPUalveo/project_1/project_1.tmp/myip_v1_0_project /home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0/component.xml 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  2734 ms.
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// [Engine Memory]: 2,771 MB (+1262kb) [00:03:47]
+// WARNING: HEventQueue.dispatchEvent() is taking  1259 ms.
+// Tcl Message: create_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:06 . Memory (MB): peak = 8145.617 ; gain = 0.000 ; free physical = 59030 ; free virtual = 121201 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/axitorouter_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/slaveaxi_1.0'. INFO: [IP_Flow 19-795] Syncing license key meta-data 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,783 MB. GUI used memory: 157 MB. Current time: 11/28/19, 4:55:44 PM CET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::edit_ip_in_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:07 . Memory (MB): peak = 8145.617 ; gain = 0.000 ; free physical = 59017 ; free virtual = 121188 
+// 'i' command handler elapsed time: 10 seconds
+// [GUI Memory]: 216 MB (+14780kb) [00:03:49]
+dismissDialog("Edit in IP Packager"); // by (cl)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 13 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 (myip_v1_0.v)]", 1); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 (myip_v1_0.v), myip_v1_0_S00_AXI_inst : myip_v1_0_S00_AXI (myip_v1_0_S00_AXI.v)]", 2, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 (myip_v1_0.v), myip_v1_0_S00_AXI_inst : myip_v1_0_S00_AXI (myip_v1_0_S00_AXI.v)]", 2, false, false, false, false, false, true); // B (F, cl) - Double Click
+// Elapsed time: 55 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 22, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// HOptionPane Warning: 'Hardware Manager cannot be opened for more than one project. Please close Hardware Manager for project 'project_1' and try again. (Unable to open Hardware Manager)'
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Waveform: addNotify
+// Waveform: addNotify
+// Waveform: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 159 MB. Current time: 11/28/19, 4:57:02 PM CET
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Nov-28 16:57:06 
+// Tcl Message: current_project project_1 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Nov-28 16:57:06 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 29 seconds
+selectCodeEditor("myip_v1_0_S00_AXI.v", 43, 347); // cl (w, cl)
+// PAPropertyPanels.initPanels (myip_v1_0.v) elapsed time: 0.3s
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 (myip_v1_0.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 (myip_v1_0.v)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Tcl Message: current_project myip_v1_0_project 
+// Elapsed time: 26 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myip_v1_0_S00_AXI.v", 2); // k (j, cl)
+// Elapsed time: 41 seconds
+selectCodeEditor("myip_v1_0_S00_AXI.v", 89, 298); // cl (w, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 22, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// HOptionPane Warning: 'Hardware Manager cannot be opened for more than one project. Please close Hardware Manager for project 'project_1' and try again. (Unable to open Hardware Manager)'
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 12 seconds
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, reg1, reg1]", 2); // a (r, cl)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,841 MB. GUI used memory: 161 MB. Current time: 11/28/19, 4:59:19 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// by (cl):  Open Block Design : addNotify
+// Tcl Message: current_project project_1 
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd} 
+dismissDialog("Open Block Design"); // by (cl)
+// Elapsed time: 16 seconds
+floatFrame(PAResourceOtoP.PAViews_IP_CATALOG, "IP Catalog"); // az (aK, cl)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// PAResourceOtoP.PAViews_IP_CATALOG: IP Catalog: float view
+selectCodeEditor("myip_v1_0_S00_AXI.v", 102, 263); // cl (w, cl)
+selectCodeEditor("myip_v1_0_S00_AXI.v", 133, 269); // cl (w, cl)
+selectCodeEditor("myip_v1_0_S00_AXI.v", 133, 269, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("myip_v1_0_S00_AXI.v", 28, 430); // cl (w, cl)
+selectCodeEditor("myip_v1_0_S00_AXI.v", 366, 434); // cl (w, cl)
+selectCodeEditor("myip_v1_0_S00_AXI.v", 237, 436); // cl (w, cl)
+selectCodeEditor("myip_v1_0_S00_AXI.v", 228, 428); // cl (w, cl)
+selectCodeEditor("myip_v1_0_S00_AXI.v", 65, 272); // cl (w, cl)
+selectCodeEditor("myip_v1_0_S00_AXI.v", 55, 185); // cl (w, cl)
+typeControlKey((HResource) null, "myip_v1_0_S00_AXI.v", 'c'); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myip_v1_0.v", 3); // k (j, cl)
+selectCodeEditor("myip_v1_0.v", 95, 264); // cl (w, cl)
+typeControlKey((HResource) null, "myip_v1_0.v", 'v'); // cl (w, cl)
+selectCodeEditor("myip_v1_0.v", 102, 310); // cl (w, cl)
+typeControlKey((HResource) null, "myip_v1_0.v", 'v'); // cl (w, cl)
+selectCodeEditor("myip_v1_0.v", 100, 304); // cl (w, cl)
+selectCodeEditor("myip_v1_0.v", 98, 268); // cl (w, cl)
+selectCodeEditor("myip_v1_0.v", 259, 186); // cl (w, cl)
+selectCodeEditor("myip_v1_0.v", 259, 186, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("myip_v1_0.v", 259, 186); // cl (w, cl)
+selectCodeEditor("myip_v1_0.v", 259, 186, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "myip_v1_0.v", 'c'); // cl (w, cl)
+selectCodeEditor("myip_v1_0.v", 203, 264); // cl (w, cl)
+selectCodeEditor("myip_v1_0.v", 203, 264, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "myip_v1_0.v", 'v'); // cl (w, cl)
+selectCodeEditor("myip_v1_0.v", 203, 304); // cl (w, cl)
+selectCodeEditor("myip_v1_0.v", 203, 304, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "myip_v1_0.v", 'v'); // cl (w, cl)
+selectCodeEditor("myip_v1_0.v", 141, 279); // cl (w, cl)
+selectCodeEditor("myip_v1_0.v", 141, 279, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("myip_v1_0.v", 145, 279); // cl (w, cl)
+selectCodeEditor("myip_v1_0.v", 145, 279, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "myip_v1_0.v", 'v'); // cl (w, cl)
+selectCodeEditor("myip_v1_0.v", 145, 292); // cl (w, cl)
+selectCodeEditor("myip_v1_0.v", 145, 292, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "myip_v1_0.v", 'v'); // cl (w, cl)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: current_project myip_v1_0_project 
+// Elapsed time: 30 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - myip", 1); // k (j, cl)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization Parameters", 3); // ar (O, cl)
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from Customization Parameters Wizard"); // h (M, cl)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::merge_project_changes hdl_parameters [ipx::current_core] 
+// Tcl Message: INFO: [IP_Flow 19-3166] Bus Interface 'S00_AXI': References existing memory map 'S00_AXI'. 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // ar (O, cl)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a (c, cl)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 14 [ipx::current_core] 
+// Tcl Message: ipx::update_source_project_archive -component [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// by (cl):  Package IP : addNotify
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: FILE_SET_CHANGE
+// by (cl):  Package IP : addNotify
+selectButton("OptionPane.button", "Yes"); // JButton (A, G)
+// Tcl Message: ipx::move_temp_component_back -component [ipx::current_core] 
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,845 MB. GUI used memory: 167 MB. Current time: 11/28/19, 5:01:51 PM CET
+// Tcl Message: close_project -delete 
+dismissDialog("Package IP"); // by (cl)
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: IP_LOCK_CHANGE
+// Tcl Message: update_ip_catalog -rebuild -repo_path /home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0' 
+// [Engine Memory]: 3,339 MB (+450343kb) [00:09:58]
+selectButton(PAResourceQtoS.SystemTab_UPGRADE_LATER, "Upgrade Later"); // h (cS, cl)
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // Z (q, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_REPORT_IP_STATUS, "Report IP Status"); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_IP_STATUS
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// by (aM):  Report IP Status : addNotify
+// Tcl Message: report_ip_status -name ip_status  
+dismissDialog("Report IP Status"); // by (aM)
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a (g, cl)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// ah (cl): Upgrade IP: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// ab (cl): Enable Core Container: addNotify
+dismissDialog("Upgrade IP"); // ah (cl)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ab)
+// 'Y' command handler elapsed time: 5 seconds
+// TclEventType: RSB_OPEN_DIAGRAM
+dismissDialog("Enable Core Container"); // ab (cl)
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 229 MB (+2622kb) [00:10:16]
+// TclEventType: RUN_RESET
+// by (cl):  Upgrade IP : addNotify
+// TclEventType: RUN_RESET
+// Tcl Message: upgrade_ip [get_ips  {myip_0 design_1_myip_0_0}] -log ip_upgrade.log 
+// Tcl Message: Upgrading '/home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd' 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded design_1_myip_0_0 (myip_v1.0 1.0) from revision 13 to revision 14 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: Wrote  : </home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd>  Wrote  : </home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui>  Upgrading 'myip_0' 
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded myip_0 (myip_v1.0 1.0) from revision 13 to revision 14 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'myip_0'... 
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to '/home/smilo/Desktop/naplesPUalveo/project_1/ip_upgrade.log'. 
+// Tcl Message: export_ip_user_files -of_objects [get_ips {myip_0 design_1_myip_0_0}] -no_script -sync -force -quiet 
+// a (cl): Critical Messages: addNotify
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 21 seconds
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cl)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs [get_bd_ports slv_reg0_0] 
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs [get_bd_ports slv_reg1_0] 
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs [get_bd_nets myip_0_slv_reg0] 
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs [get_bd_nets myip_0_slv_reg1] 
+// Elapsed time: 20 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 196, 137, 886, 547, false, false, false, true, false); // gl (k, cl) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // ae (an, cl)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // ae (an, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS, "Make External"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: make_bd_pins_external  [get_bd_pins myip_0/slv_reg1] 
+// Tcl Message: endgroup 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 201, 92, 886, 547, false, false, false, true, false); // gl (k, cl) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // ae (an, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 3,068 MB. GUI used memory: 165 MB. Current time: 11/28/19, 5:03:02 PM CET
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // ae (an, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS, "Make External"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: make_bd_pins_external  [get_bd_pins myip_0/slv_reg0] 
+// Tcl Message: endgroup 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins ila_0/probe0] [get_bd_pins myip_0/slv_reg0] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins ila_0/probe1] [get_bd_pins myip_0/slv_reg1] 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Generate Block Design]", 8, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_GENERATE_RSB_DESIGN
+// aI (cl): Generate Output Products: addNotify
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// by (cl):  Managing Output Products : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: generate_target all [get_files  /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd] 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : </home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd>  Wrote  : </home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui>  
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: VHDL Output written to : /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/synth/design_1.v VHDL Output written to : /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/sim/design_1.v VHDL Output written to : /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block xdma_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block util_ds_buf . INFO: [BD 41-1029] Generation completed for the IP Integrator block myip_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_0 . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_ds . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_pc . 
+// Tcl Message: Exporting to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl Generated Hardware Definition File /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/synth/design_1.hwdef 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all design_1_myip_0_0] } 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: catch { config_ip_cache -export [get_ips -all design_1_auto_ds_0] } 
+// TclEventType: OOC_IP_CACHE_USED
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_ds_0, cache-ID = 55a633c883827154; cache size = 493.876 MB. 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: catch { config_ip_cache -export [get_ips -all design_1_auto_pc_0] } 
+// TclEventType: OOC_IP_CACHE_USED
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = db3354bff97adbb3; cache size = 493.876 MB. 
+// TclEventType: PROJ_DESIGN_MODE_SET
+// WARNING: HEventQueue.dispatchEvent() is taking  1136 ms.
+// Tcl Message: export_ip_user_files -of_objects [get_files /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs -jobs 16 design_1_myip_0_0_synth_1 
+// Tcl Message: [Thu Nov 28 17:03:22 2019] Launched design_1_myip_0_0_synth_1... Run output will be captured here: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/design_1_myip_0_0_synth_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// 'bo' command handler elapsed time: 43 seconds
+// Elapsed time: 41 seconds
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+// [GUI Memory]: 246 MB (+6005kb) [00:12:02]
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+dockFrame(PAResourceOtoP.PAViews_IP_CATALOG, "IP Catalog"); // az (aK, aM)
+// Elapsed time: 41 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nexys4ddr_top (nexys4ddr_top.sv)]", 3); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nexys4ddr_top (nexys4ddr_top.sv), pcie : design_1_wrapper (design_1_wrapper.v)]", 4, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nexys4ddr_top (nexys4ddr_top.sv), pcie : design_1_wrapper (design_1_wrapper.v)]", 4, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nexys4ddr_top (nexys4ddr_top.sv)]", 3, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nexys4ddr_top (nexys4ddr_top.sv)]", 3, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Elapsed time: 15 seconds
+selectCodeEditor("nexys4ddr_top.sv", 149, 17); // cl (w, cl)
+// Elapsed time: 11 seconds
+selectCodeEditor("nexys4ddr_top.sv", 229, 33); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 229, 33, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 56 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cl): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// by (cl):  Resetting Runs : addNotify
+dismissDialog("No Implementation Results Available"); // A (cl)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run design_1_myip_0_0_synth_1 
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cx' command handler elapsed time: 5 seconds
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// by (cl):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 28 17:06:40 2019] Launched design_1_myip_0_0_synth_1, synth_1... Run output will be captured here: design_1_myip_0_0_synth_1: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/design_1_myip_0_0_synth_1/runme.log synth_1: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/synth_1/runme.log [Thu Nov 28 17:06:41 2019] Launched impl_1... Run output will be captured here: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // by (cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// by (cl):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RUN_STATUS_CHANGE
+floatFrame(PAResourceOtoP.PAViews_IP_CATALOG, "IP Catalog"); // az (aK, cl)
+// Tcl Message: open_bd_design {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd} 
+dismissDialog("Open Block Design"); // by (cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+dockFrame(PAResourceOtoP.PAViews_IP_CATALOG, "IP Catalog"); // az (aK, aM)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nexys4ddr_top (nexys4ddr_top.sv)]", 3); // B (F, cl)
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// [GUI Memory]: 259 MB (+147kb) [00:15:02]
+// TclEventType: RUN_STATUS_CHANGE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nexys4ddr_top (nexys4ddr_top.sv), pcie : design_1_wrapper (design_1_wrapper.v)]", 4); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nexys4ddr_top (nexys4ddr_top.sv), pcie : design_1_wrapper (design_1_wrapper.v)]", 4, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nexys4ddr_top (nexys4ddr_top.sv), pcie : design_1_wrapper (design_1_wrapper.v)]", 4, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Elapsed time: 100 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cl): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// by (cl):  Resetting Runs : addNotify
+dismissDialog("No Implementation Results Available"); // A (cl)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run design_1_myip_0_0_synth_1 
+// f (cl): Launch Runs: addNotify
+// Elapsed time: 1014 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (f)
+// 'cx' command handler elapsed time: 1016 seconds
+dismissDialog("Launch Runs"); // f (cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nexys4ddr_top (nexys4ddr_top.sv)]", 3, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nexys4ddr_top (nexys4ddr_top.sv)]", 3, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectCodeEditor("nexys4ddr_top.sv", 225, 210); // cl (w, cl)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("nexys4ddr_top.sv", 230, 292); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 230, 292, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "nexys4ddr_top.sv", 'c'); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 224, 262); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 224, 262, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "nexys4ddr_top.sv", 'v'); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 198, 247); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 198, 247, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "nexys4ddr_top.sv", 'v'); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 169, 204); // cl (w, cl)
+typeControlKey((HResource) null, "nexys4ddr_top.sv", 'c'); // cl (w, cl)
+selectCodeEditor("nexys4ddr_top.sv", 192, 266); // cl (w, cl)
+typeControlKey((HResource) null, "nexys4ddr_top.sv", 'v'); // cl (w, cl)
+// Elapsed time: 12 seconds
+selectCodeEditor("nexys4ddr_top.sv", 478, 266); // cl (w, cl)
+// Elapsed time: 19 seconds
+selectCodeEditor("nexys4ddr_top.sv", 672, 339); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cl): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// by (cl):  Resetting Runs : addNotify
+// f (cl): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // A (cl)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cx' command handler elapsed time: 3 seconds
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// by (cl):  Generate Bitstream : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 28 17:27:19 2019] Launched design_1_myip_0_0_synth_1, synth_1... Run output will be captured here: design_1_myip_0_0_synth_1: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/design_1_myip_0_0_synth_1/runme.log synth_1: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/synth_1/runme.log [Thu Nov 28 17:27:19 2019] Launched impl_1... Run output will be captured here: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 92 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1 ;  ; Submodule Runs Failed ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Tue Nov 26 15:49:04 CET 2019 ; 49:39:01 ;  ;  ;  ;  ; ", 3, "design_1", 0, true); // ay (O, cl) - Node
+// [GUI Memory]: 280 MB (+8368kb) [00:36:57]
+// Elapsed time: 13 seconds
+selectCheckBox(PAResourceItoN.MsgView_CRITICAL_WARNINGS, (String) null, false); // g (aR, cl): FALSE
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // g (aR, cl): FALSE
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // g (aR, cl): FALSE
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, Out-of-Context Module Runs, design_1, design_1_myip_0_0_synth_1, [Synth 8-685] variable 'slv_reg0' should not be used in output port connection [/home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/a18a/hdl/myip_v1_0.v:54]. ]", 4, false); // ah (O, cl)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/a18a/hdl/myip_v1_0.v;-;;-;16;-;line;-;54;-;;-;16;-;"); // ah (O, cl)
+// Elapsed time: 44 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// by (cl):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// WARNING: HEventQueue.dispatchEvent() is taking  1284 ms.
+// Tcl Message: open_bd_design {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd} 
+floatFrame(PAResourceOtoP.PAViews_IP_CATALOG, "IP Catalog"); // az (aK, cl)
+dismissDialog("Open Block Design"); // by (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // Z (q, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_REPORT_IP_STATUS, "Report IP Status"); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_IP_STATUS
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// by (aM):  Report IP Status : addNotify
+// Tcl Message: report_ip_status -name ip_status  
+dismissDialog("Report IP Status"); // by (aM)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 150, 193, 886, 547, false, false, false, true, false); // gl (k, cl) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // ae (an, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k (cl): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (k)
+// by (cl):  Edit in IP Packager : addNotify
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name myip_v1_0_project -directory /home/smilo/Desktop/naplesPUalveo/project_1/project_1.tmp/myip_v1_0_project /home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0/component.xml 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  2094 ms.
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// [GUI Memory]: 295 MB (+1722kb) [00:38:25]
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/axitorouter_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/slaveaxi_1.0'. INFO: [IP_Flow 19-795] Syncing license key meta-data 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::edit_ip_in_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 8558.535 ; gain = 0.000 ; free physical = 58293 ; free virtual = 120861 
+// 'i' command handler elapsed time: 8 seconds
+dismissDialog("Edit in IP Packager"); // by (cl)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 (myip_v1_0.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 (myip_v1_0.v)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 (myip_v1_0.v), myip_v1_0_S00_AXI_inst : myip_v1_0_S00_AXI (myip_v1_0_S00_AXI.v)]", 2, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 (myip_v1_0.v), myip_v1_0_S00_AXI_inst : myip_v1_0_S00_AXI (myip_v1_0_S00_AXI.v)]", 2, false, false, false, false, false, true); // B (F, cl) - Double Click
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 (myip_v1_0.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 (myip_v1_0.v)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Elapsed time: 20 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aK (aH, cl)
+// Elapsed time: 34 seconds
+selectCodeEditor("myip_v1_0.v", 376, 266); // cl (w, cl)
+selectCodeEditor("myip_v1_0.v", 233, 398); // cl (w, cl)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - myip", 1); // k (j, cl)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization Parameters", 3); // ar (O, cl)
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from Customization Parameters Wizard"); // h (M, cl)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::merge_project_changes hdl_parameters [ipx::current_core] 
+// Tcl Message: INFO: [IP_Flow 19-3166] Bus Interface 'S00_AXI': References existing memory map 'S00_AXI'. 
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // ar (O, cl)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a (c, cl)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 15 [ipx::current_core] 
+// by (cl):  Package IP : addNotify
+// Tcl Message: ipx::update_source_project_archive -component [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: FILE_SET_CHANGE
+// by (cl):  Package IP : addNotify
+selectButton("OptionPane.button", "Yes"); // JButton (A, G)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: ipx::move_temp_component_back -component [ipx::current_core] 
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 3,343 MB. GUI used memory: 199 MB. Current time: 11/28/19, 5:32:24 PM CET
+// Tcl Message: close_project -delete 
+dismissDialog("Package IP"); // by (cl)
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog -rebuild -repo_path /home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0 
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0' 
+// Tcl Command: 'set_property location {4 1180 370} [get_bd_cells myip_0]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {4 1180 370} [get_bd_cells myip_0] 
+// Elapsed time: 22 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // Z (q, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_REPORT_IP_STATUS, "Report IP Status"); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_IP_STATUS
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a (g, cl)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// ah (cl): Upgrade IP: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// ab (cl): Enable Core Container: addNotify
+dismissDialog("Upgrade IP"); // ah (cl)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ab)
+// 'Y' command handler elapsed time: 3 seconds
+// TclEventType: RSB_OPEN_DIAGRAM
+dismissDialog("Enable Core Container"); // ab (cl)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: upgrade_ip [get_ips  {myip_0 design_1_myip_0_0}] -log ip_upgrade.log 
+// Tcl Message: Upgrading '/home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd' 
+// by (cl):  Upgrade IP : addNotify
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded design_1_myip_0_0 (myip_v1.0 1.0) from revision 14 to revision 15 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: Wrote  : </home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd>  Wrote  : </home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui>  Upgrading 'myip_0' 
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded myip_0 (myip_v1.0 1.0) from revision 14 to revision 15 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'myip_0'... 
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to '/home/smilo/Desktop/naplesPUalveo/project_1/ip_upgrade.log'. 
+// Tcl Message: export_ip_user_files -of_objects [get_ips {myip_0 design_1_myip_0_0}] -no_script -sync -force -quiet 
+// a (cl): Critical Messages: addNotify
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cl)
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_ports slv_reg0_0] [get_bd_pins myip_0/slv0] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_ports slv_reg1_0] [get_bd_pins myip_0/slv1] 
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : </home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd>  
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cl): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("No Implementation Results Available"); // A (cl)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cx' command handler elapsed time: 3 seconds
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// by (cl):  Generate Bitstream : addNotify
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: Wrote  : </home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd>  VHDL Output written to : /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/synth/design_1.v VHDL Output written to : /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/sim/design_1.v VHDL Output written to : /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block xdma_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block util_ds_buf . INFO: [BD 41-1029] Generation completed for the IP Integrator block myip_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_0 . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_ds . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_pc . 
+// Tcl Message: Exporting to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl Generated Hardware Definition File /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/synth/design_1.hwdef 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: FILE_SET_NEW
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_ds_0, cache-ID = 55a633c883827154; cache size = 493.876 MB. INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = db3354bff97adbb3; cache size = 493.876 MB. 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 28 17:33:31 2019] Launched design_1_myip_0_0_synth_1, synth_1... Run output will be captured here: design_1_myip_0_0_synth_1: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/design_1_myip_0_0_synth_1/runme.log synth_1: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/synth_1/runme.log [Thu Nov 28 17:33:32 2019] Launched impl_1... Run output will be captured here: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 8667.070 ; gain = 15.867 ; free physical = 58258 ; free virtual = 120828 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 10 seconds
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h (cS, cl)
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h (cS, cl)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 56 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 37, 249, 886, 547, false, false, false, true, false); // gl (k, cl) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // ae (an, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k (cl): Edit in IP Packager: addNotify
+applyEnter(PAResourceEtoH.EditIPProjectNameChooser_PROJECT_NAME, "myip_v1_0_project"); // Y (D, k)
+// by (cl):  Edit in IP Packager : addNotify
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name myip_v1_0_project -directory /home/smilo/Desktop/naplesPUalveo/project_1/project_1.tmp/myip_v1_0_project /home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0/component.xml 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  2274 ms.
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 3,438 MB. GUI used memory: 205 MB. Current time: 11/28/19, 5:34:53 PM CET
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// Tcl Message: create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 8667.070 ; gain = 0.000 ; free physical = 58199 ; free virtual = 120769 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/axitorouter_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/slaveaxi_1.0'. INFO: [IP_Flow 19-795] Syncing license key meta-data 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::edit_ip_in_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 8667.070 ; gain = 0.000 ; free physical = 58193 ; free virtual = 120763 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (k)
+// 'i' command handler elapsed time: 8 seconds
+dismissDialog("Edit in IP Packager"); // by (cl)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 (myip_v1_0.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 (myip_v1_0.v)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectCodeEditor("myip_v1_0.v", 246, 264); // cl (w, cl)
+selectCodeEditor("myip_v1_0.v", 295, 263); // cl (w, cl)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 10 seconds
+selectCodeEditor("myip_v1_0.v", 266, 306); // cl (w, cl)
+typeControlKey((HResource) null, "myip_v1_0.v", 'c'); // cl (w, cl)
+selectCodeEditor("myip_v1_0.v", 116, 266); // cl (w, cl)
+typeControlKey((HResource) null, "myip_v1_0.v", 'v'); // cl (w, cl)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 3,512 MB (+5831kb) [00:43:48]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 (myip_v1_0.v), myip_v1_0_S00_AXI_inst : myip_v1_0_S00_AXI (myip_v1_0_S00_AXI.v)]", 2, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 (myip_v1_0.v), myip_v1_0_S00_AXI_inst : myip_v1_0_S00_AXI (myip_v1_0_S00_AXI.v)]", 2, false, false, false, false, false, true); // B (F, cl) - Double Click
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - myip", 1); // k (j, cl)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization Parameters", 3); // ar (O, cl)
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from Customization Parameters Wizard"); // h (M, cl)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::merge_project_changes hdl_parameters [ipx::current_core] 
+// Tcl Message: INFO: [IP_Flow 19-3166] Bus Interface 'S00_AXI': References existing memory map 'S00_AXI'. 
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // ar (O, cl)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a (c, cl)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 16 [ipx::current_core] 
+// Tcl Message: ipx::update_source_project_archive -component [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// HMemoryUtils.trashcanNow. Engine heap size: 3,526 MB. GUI used memory: 216 MB. Current time: 11/28/19, 5:36:07 PM CET
+// TclEventType: FILE_SET_CHANGE
+// by (cl):  Package IP : addNotify
+selectButton("OptionPane.button", "Yes"); // JButton (A, G)
+// Tcl Message: ipx::move_temp_component_back -component [ipx::current_core] 
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 3,513 MB. GUI used memory: 214 MB. Current time: 11/28/19, 5:36:09 PM CET
+// Tcl Message: close_project -delete 
+dismissDialog("Package IP"); // by (cl)
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// Tcl Message: update_ip_catalog -rebuild -repo_path /home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository '/home/smilo/Desktop/naplesPUalveo/ip_repo/myip_1.0' 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // Z (q, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_REPORT_IP_STATUS, "Report IP Status"); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_IP_STATUS
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// by (cl):  Report IP Status : addNotify
+// Tcl Message: report_ip_status -name ip_status  
+dismissDialog("Report IP Status"); // by (cl)
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a (g, cl)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// ah (cl): Upgrade IP: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// ab (cl): Enable Core Container: addNotify
+dismissDialog("Upgrade IP"); // ah (cl)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ab)
+// 'Y' command handler elapsed time: 3 seconds
+// TclEventType: RSB_OPEN_DIAGRAM
+dismissDialog("Enable Core Container"); // ab (cl)
+// TclEventType: RUN_MODIFY
+// Tcl Message: upgrade_ip [get_ips  {myip_0 design_1_myip_0_0}] -log ip_upgrade.log 
+// TclEventType: RUN_RESET
+// Tcl Message: Upgrading '/home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd' 
+// by (cl):  Upgrade IP : addNotify
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded design_1_myip_0_0 (myip_v1.0 1.0) from revision 15 to revision 16 
+// Tcl Message: Wrote  : </home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd>  Upgrading 'myip_0' 
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded myip_0 (myip_v1.0 1.0) from revision 15 to revision 16 INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'myip_0'... INFO: [Coretcl 2-1525] Wrote upgrade log to '/home/smilo/Desktop/naplesPUalveo/project_1/ip_upgrade.log'. 
+// Tcl Message: export_ip_user_files -of_objects [get_ips {myip_0 design_1_myip_0_0}] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cl): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("No Implementation Results Available"); // A (cl)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cx' command handler elapsed time: 3 seconds
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// by (cl):  Generate Bitstream : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : </home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd>  VHDL Output written to : /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/synth/design_1.v 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: VHDL Output written to : /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/sim/design_1.v VHDL Output written to : /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block xdma_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block util_ds_buf . INFO: [BD 41-1029] Generation completed for the IP Integrator block myip_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_0 . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_ds . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_pc . 
+// Tcl Message: Exporting to file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl Generated Hardware Definition File /home/smilo/Desktop/naplesPUalveo/project_1/project_1.srcs/sources_1/bd/design_1/synth/design_1.hwdef 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: FILE_SET_NEW
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_ds_0, cache-ID = 55a633c883827154; cache size = 493.876 MB. INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = db3354bff97adbb3; cache size = 493.876 MB. 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 28 17:36:47 2019] Launched design_1_myip_0_0_synth_1, synth_1... Run output will be captured here: design_1_myip_0_0_synth_1: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/design_1_myip_0_0_synth_1/runme.log synth_1: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/synth_1/runme.log [Thu Nov 28 17:36:47 2019] Launched impl_1... Run output will be captured here: /home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 8806.625 ; gain = 8.926 ; free physical = 58164 ; free virtual = 120734 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h (cS, cl)
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h (cS, cl)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+expandTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1 ;  ; Running Submodule Runs ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Tue Nov 26 15:49:04 CET 2019 ; 49:47:59 ;  ;  ;  ;  ; ", 3); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1_myip_0_0_synth_1 ; design_1_myip_0_0 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Nov 28 17:36:48 CET 2019 ; 00:00:15 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcu280-fsvh2892-2L-e ;  ; Vivado Synthesis Defaults", 6, "design_1_myip_0_0_synth_1", 0, false); // ay (O, cl)
+// PAPropertyPanels.initPanels (design_1_myip_0_0_synth_1) elapsed time: 0.3s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,564 MB. GUI used memory: 213 MB. Current time: 11/28/19, 5:37:08 PM CET
+// Elapsed time: 17 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1_xdma_0_0 ;  ; Using cached IP results ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 7, "design_1_xdma_0_0", 0, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1_myip_0_0_synth_1 ; design_1_myip_0_0 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Nov 28 17:36:48 CET 2019 ; 00:00:15 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcu280-fsvh2892-2L-e ;  ; Vivado Synthesis Defaults", 6, "design_1_myip_0_0_synth_1", 0, false); // ay (O, cl)
+// Elapsed time: 29 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1_xdma_0_0 ;  ; Using cached IP results ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 7, "design_1_xdma_0_0", 0, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1_myip_0_0_synth_1 ; design_1_myip_0_0 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Nov 28 17:36:48 CET 2019 ; 00:00:54 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcu280-fsvh2892-2L-e ;  ; Vivado Synthesis Defaults", 6, "design_1_myip_0_0_synth_1", 0, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1_xdma_0_0 ;  ; Using cached IP results ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 7, "design_1_xdma_0_0", 0, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1_myip_0_0_synth_1 ; design_1_myip_0_0 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Nov 28 17:36:48 CET 2019 ; 00:00:54 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcu280-fsvh2892-2L-e ;  ; Vivado Synthesis Defaults", 6, "design_1_myip_0_0_synth_1", 0, false); // ay (O, cl)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,564 MB. GUI used memory: 205 MB. Current time: 11/28/19, 6:07:13 PM CET
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 512ms to process. Increasing delay to 3000 ms.
+// ah (cl): Bitstream Generation Completed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 3,497 MB. GUI used memory: 146 MB. Current time: 11/28/19, 6:37:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,494 MB. GUI used memory: 145 MB. Current time: 11/28/19, 7:07:13 PM CET
+// Elapsed time: 7092 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Waveform: addNotify
+// Waveform: addNotify
+// Waveform: addNotify
+// PAPropertyPanels.initPanels (design_1_myip_0_0_synth_1) elapsed time: 0.2s
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// WARNING: HEventQueue.dispatchEvent() is taking  1772 ms.
+dockFrame(PAResourceOtoP.PAViews_IP_CATALOG, "IP Catalog"); // az (aK, aM)
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Bitstream Generation Completed"); // ah (cl)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xcu280_0 (2) ; Programmed", 2, "xcu280_0 (2)", 0, true); // t (O, cl) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xcu280_0 (2) ; Programmed", 2, "xcu280_0 (2)", 0, true, false, false, false, true, false); // t (O, cl) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+applyEnter(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE, "/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.bit"); // am (al, bC)
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cl)
+// Tcl Message: set_property PROBES.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.ltx} [get_hw_devices xcu280_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.ltx} [get_hw_devices xcu280_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/smilo/Desktop/naplesPUalveo/project_1/project_1.runs/impl_1/nexys4ddr_top.bit} [get_hw_devices xcu280_0] 
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_DEVICE_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 3,495 MB. GUI used memory: 202 MB. Current time: 11/28/19, 7:36:24 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Tcl Message: program_hw_devices [get_hw_devices xcu280_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:52 ; elapsed = 00:00:49 . Memory (MB): peak = 8816.629 ; gain = 0.000 ; free physical = 57605 ; free virtual = 120705 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 3,495 MB. GUI used memory: 202 MB. Current time: 11/28/19, 7:37:13 PM CET
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xcu280_0] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xcu280 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s). 
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 3,503 MB. GUI used memory: 225 MB. Current time: 11/28/19, 7:37:13 PM CET
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: add_wave -into {hw_ila_data_1.wcfg} -radix hex { {pcie/design_1_i/myip_0_slv_reg0} {pcie/design_1_i/myip_0_slv_reg1} } 
+// 'I' command handler elapsed time: 51 seconds
+// Elapsed time: 50 seconds
+dismissDialog("Program Device"); // by (cl)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, reg0]", 0, true); // a (r, cl) - Node
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2019-Nov-28 19:37:19 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}] 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcu280_0] -filter {CELL_NAME=~"pcie/design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2019-Nov-28 19:37:19 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 3,503 MB. GUI used memory: 202 MB. Current time: 11/28/19, 7:37:21 PM CET

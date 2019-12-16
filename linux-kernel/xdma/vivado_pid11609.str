@@ -1,0 +1,177 @@
+/*
+
+Xilinx Vivado v2019.1.3 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2644227 on Wed Sep  4 09:44:18 MDT 2019
+IP Build: 2633630 on Wed Sep  4 12:30:14 MDT 2019
+
+Process ID (PID): 11609
+License: Customer
+
+Current time: 	Mon Oct 14 14:44:29 CEST 2019
+Time zone: 	Central European Standard Time (Europe/Rome)
+
+OS: Ubuntu
+OS Version: 4.15.0-55-generic
+OS Architecture: amd64
+Available processors (cores): 32
+
+Display: :1.0
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Available disk space: 426 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/opt/Xilinx/Vivado/2019.1/tps/lnx64/jre9.0.4
+Java executable location: 	/opt/Xilinx/Vivado/2019.1/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	smilo
+User home directory: /home/smilo
+User working directory: /home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/xdma
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /opt/Xilinx/Vivado
+HDI_APPROOT: /opt/Xilinx/Vivado/2019.1
+RDI_DATADIR: /opt/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: /opt/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: /home/smilo/.Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: /home/smilo/.Xilinx/Vivado/2019.1/
+Vivado layouts directory: /home/smilo/.Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	/opt/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	/home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/xdma/vivado.log
+Vivado journal file location: 	/home/smilo/Desktop/dma_ip_drivers/XDMA/linux-kernel/xdma/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-11609-CeRICT-RECIPE-0
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /opt/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: /opt/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: /opt/Xilinx/Vivado/2019.1
+XILINX_SDK: /opt/Xilinx/SDK/2019.1
+XILINX_SDX: /opt/Xilinx/SDx/2019.1
+XILINX_VIVADO: /opt/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: /opt/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	208 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,057 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,002 MB. GUI used memory: 46 MB. Current time: 10/14/19, 2:44:32 PM CEST
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // ae (cl, Popup.HeavyWeightWindow)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // ae (cl, Popup.HeavyWeightWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // Z (q, cl)
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // x (w, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// by (cl):  Open Hardware Manager : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_hw 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 59 MB (+58902kb) [00:00:43]
+// [Engine Memory]: 1,186 MB (+1091865kb) [00:00:43]
+// WARNING: HEventQueue.dispatchEvent() is taking  1596 ms.
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'. 
+// TclEventType: HW_SESSION_OPEN
+// [GUI Memory]: 100 MB (+40041kb) [00:00:45]
+// Tcl Message: open_hw: Time (s): cpu = 00:00:20 ; elapsed = 00:00:07 . Memory (MB): peak = 6860.059 ; gain = 237.988 ; free physical = 60324 ; free virtual = 122602 
+// 'Q' command handler elapsed time: 6 seconds
+dismissDialog("Open Hardware Manager"); // by (cl)
+// [Engine Memory]: 1,253 MB (+8503kb) [00:00:46]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,253 MB. GUI used memory: 51 MB. Current time: 10/14/19, 2:45:07 PM CEST
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cS, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ah (an, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 INFO: [Labtools 27-2222] Launching hw_server... 
+// by (cl):  Auto Connect : addNotify
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2019.1.3   **** Build date : Sep  4 2019 at 10:02:20     ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   
+dismissDialog("Auto Connect"); // by (cl)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cS, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ah (an, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Elapsed time: 29 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cS, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ah (an, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,257 MB. GUI used memory: 51 MB. Current time: 10/14/19, 3:15:07 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,257 MB. GUI used memory: 46 MB. Current time: 10/14/19, 3:45:07 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,257 MB. GUI used memory: 46 MB. Current time: 10/14/19, 4:15:07 PM CEST
+// [GUI Memory]: 105 MB (+613kb) [01:41:51]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,256 MB. GUI used memory: 46 MB. Current time: 10/14/19, 4:45:07 PM CEST
